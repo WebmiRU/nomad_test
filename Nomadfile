@@ -20,54 +20,46 @@ job "php-app" {
       ]
     }
 
-    # Задача с PHP
     task "php" {
       driver = "docker"
-
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud"
-        destination = "alloc/repo"
-        options {
-          archive = true
-        }
+        destination = "local/repo"
+        options { archive = true }
       }
-
       config {
         image = "php:8.2-fpm-alpine"
-        # Мапим из общей папки alloc всей группы
-        volumes = [
-          "../alloc/repo:/var/www/html"
-        ]
-      }
-
-      resources {
-        disk   = 100
-        memory = 128
+        volumes = ["local/repo:/var/www/html"]
+        # Исправляем права на случай если в архиве они кривые
+        command = "/bin/sh"
+        args = ["-c", "chmod -R 755 /var/www/html && php-fpm"]
       }
     }
 
-    # Задача с Nginx
     task "nginx" {
       driver = "docker"
-
+      # Дублируем скачивание сюда, чтобы nginx точно видел файлы
+      artifact {
+        source      = "https://s3.ru1.storage.beget.cloud"
+        destination = "local/repo"
+        options { archive = true }
+      }
       config {
         image = "nginx:alpine"
-        # Важно: Nginx тоже должен видеть ту же папку alloc/repo
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "../alloc/repo:/var/www/html"
+          "local/repo:/var/www/html"
         ]
+        command = "/bin/sh"
+        args = ["-c", "chmod -R 755 /var/www/html && nginx -g 'daemon off;'"]
       }
-
       template {
         data = <<EOH
 server {
     listen 80;
     root /var/www/html;
     index index.php;
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
+    location / { try_files $uri $uri/ /index.php?$query_string; }
     location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
