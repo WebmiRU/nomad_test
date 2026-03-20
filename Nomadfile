@@ -7,7 +7,6 @@ job "php-app" {
       port "http" { to = 80 }
     }
 
-    # Настройки Traefik оставляем те же
     service {
       name = "php-app"
       port = "http"
@@ -24,55 +23,40 @@ job "php-app" {
     task "php" {
       driver = "docker"
 
-      volumes = [
-        "local/repo/nomad_test-master:/var/www/html"
-      ]
-
-      # Клонируем код прямо из твоего GitHub
       artifact {
-        # GitHub отдает мастер-ветку архивом по этой ссылке:
         source      = "https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.zip"
         destination = "local/repo"
-        # В ZIP-архиве от GitHub внутри будет папка "nomad_test-master",
-        # поэтому добавим опцию, чтобы вытащить содержимое сразу в local/repo
         options {
           archive = true
         }
       }
 
-      resources {
-        disk = 100 # Чуть больше под гит-объекты
-        memory = 128
+      config {
+        image = "php:8.2-fpm-alpine"
+        # Все volumes должны быть только здесь!
+        volumes = [
+          "local/repo/nomad_test-master:/var/www/html"
+        ]
       }
 
-      config {
-        # privileged = true # Даст контейнеру больше прав
-        image = "php:8.2-fpm-alpine"
-        # Мапим папку из артефакта в корень сайта в контейнере
-        volumes = [
-          "local/repo:/var/www/html"
-        ]
+      resources {
+        disk   = 100
+        memory = 128
       }
     }
 
     task "nginx" {
       driver = "docker"
 
-      volumes = [
-        "local/repo/nomad_test-master:/var/www/html"
-      ]
-      
       config {
         image = "nginx:alpine"
+        # Все volumes должны быть только здесь!
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          # Нюанс: Nginx тоже должен видеть статику (картинки/js),
-          # поэтому мапим ту же папку, что и в PHP
-          "local/repo:/var/www/html"
+          "local/repo/nomad_test-master:/var/www/html"
         ]
       }
 
-      # Конфиг Nginx остается прежним
       template {
         data = <<EOH
 server {
