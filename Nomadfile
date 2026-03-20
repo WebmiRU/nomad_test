@@ -1,0 +1,79 @@
+job "php-app" {
+  datacenters = ["dc1"]
+
+  group "web-server" {
+    network {
+      mode = "bridge"
+      port "http" { to = 80 }
+    }
+
+    # Настройки Traefik оставляем те же
+    service {
+      name = "php-app"
+      port = "http"
+      provider = "nomad"
+      tags = [
+        "traefik.enable=true",
+        "traefik.http.routers.phpapp.rule=Host(`php.b220.ru`)",
+        "traefik.http.routers.phpapp.entrypoints=websecure",
+        "traefik.http.routers.phpapp.tls=true",
+        "traefik.http.routers.phpapp.tls.certresolver=myresolver"
+      ]
+    }
+
+    task "php" {
+      driver = "docker"
+
+      # Клонируем код прямо из твоего GitHub
+      artifact {
+        source      = "git::https://github.com/WebmiRU/nomad_test.git"
+        destination = "local/repo"
+      }
+
+      resources {
+        disk = 100 # Чуть больше под гит-объекты
+        memory = 128
+      }
+
+      config {
+        image = "php:8.2-fpm-alpine"
+        # Мапим папку из артефакта в корень сайта в контейнере
+        volumes = [
+          "local/repo:/var/www/html"
+        ]
+      }
+    }
+
+    task "nginx" {
+      driver = "docker"
+      config {
+        image = "nginx:alpine"
+        volumes = [
+          "local/nginx.conf:/etc/nginx/conf.d/default.conf",
+          # Нюанс: Nginx тоже должен видеть статику (картинки/js),
+          # поэтому мапим ту же папку, что и в PHP
+          "local/repo:/var/www/html"
+        ]
+      }
+
+      # Конфиг Nginx остается прежним
+      template {
+        data = <<EOH
+server {
+    listen 80;
+    root /var/www/html;
+    index index.php;
+    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location ~ \.php$ {
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME /var/www/html$fastcgi_script_name;
+    }
+}
+EOH
+        destination = "local/nginx.conf"
+      }
+    }
+  }
+}
