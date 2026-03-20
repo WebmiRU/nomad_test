@@ -27,7 +27,7 @@ job "php-app" {
       # Клонируем код прямо из твоего GitHub
       artifact {
         # GitHub отдает мастер-ветку архивом по этой ссылке:
-        source      = "https://github.com /WebmiRU/nomad_test/archive/refs/heads/master.zip"
+        source      = "https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.zip"
         destination = "local/repo"
         # В ZIP-архиве от GitHub внутри будет папка "nomad_test-master",
         # поэтому добавим опцию, чтобы вытащить содержимое сразу в local/repo
