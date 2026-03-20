@@ -38,7 +38,10 @@ job "php-app" {
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
         destination = "local/repo"
-        options { archive = true }
+        options {
+          archive = true
+          verbose = true
+        }
       }
       config {
         image = "nginx:alpine"
