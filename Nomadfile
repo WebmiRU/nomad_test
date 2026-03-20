@@ -27,7 +27,17 @@ job "php-app" {
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
+        options {
+          # ОБЯЗАТЕЛЬНО: говорим Nomad распаковать архив
+          archive = true
+          # Если внутри архива файлы лежат в папке, это вытянет их в корень
+          # strip_components = 1
+        }
       }
+      #artifact {
+      #  source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
+      #  destination = "local/repo"
+      #}
 
       config {
         image = "php:8.2-fpm-alpine"
