@@ -22,46 +22,33 @@ job "php-app" {
 
     task "php" {
       driver = "docker"
-
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
-        options {
-          archive = true # Это заставит Nomad распаковать .tar.gz
-        }
+        options { archive = true }
       }
-
       config {
         image = "php:8.2-fpm-alpine"
-        command = "/bin/sh"
-        args = ["-c", "chmod -R 755 /local/repo && php-fpm"]
+        # Просто запускаем, права поправим в nginx (папка общая)
       }
     }
 
     task "nginx" {
       driver = "docker"
-
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
-        options {
-          archive = true
-        }
+        options { archive = true }
       }
-
       config {
         image = "nginx:alpine"
-        volumes = [
-          "local/nginx.conf:/etc/nginx/conf.d/default.conf"
-        ]
+        volumes = ["local/nginx.conf:/etc/nginx/conf.d/default.conf"]
+        # Исправляем права на ВСЮ папку перед стартом
         command = "/bin/sh"
-        args = ["-c", "chmod -R 755 /local/repo && nginx -g 'daemon off;'"]
+        args = ["-c", "chmod -R 777 /local/repo && nginx -g 'daemon off;'"]
       }
-
       template {
         data = <<EOH
-user root; # Работаем от root, чтобы не было 403
-
 server {
     listen 80;
     root /local/repo;
