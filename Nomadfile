@@ -36,7 +36,7 @@ job "php-app" {
       }
 
       config {
-        privileged = true # Даст контейнеру больше прав
+        # privileged = true # Даст контейнеру больше прав
         image = "php:8.2-fpm-alpine"
         # Мапим папку из артефакта в корень сайта в контейнере
         volumes = [
