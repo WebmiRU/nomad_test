@@ -23,7 +23,7 @@ job "php-app" {
     task "php" {
       driver = "docker"
       artifact {
-        source      = "https://s3.ru1.storage.beget.cloud"
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
         options { archive = true }
       }
@@ -40,7 +40,7 @@ job "php-app" {
       driver = "docker"
       # Дублируем скачивание сюда, чтобы nginx точно видел файлы
       artifact {
-        source      = "https://s3.ru1.storage.beget.cloud"
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
         options { archive = true }
       }
