@@ -24,6 +24,10 @@ job "php-app" {
     task "php" {
       driver = "docker"
 
+      volumes = [
+        "local/repo/nomad_test-master:/var/www/html"
+      ]
+
       # Клонируем код прямо из твоего GitHub
       artifact {
         # GitHub отдает мастер-ветку архивом по этой ссылке:
@@ -53,6 +57,11 @@ job "php-app" {
 
     task "nginx" {
       driver = "docker"
+
+      volumes = [
+        "local/repo/nomad_test-master:/var/www/html"
+      ]
+      
       config {
         image = "nginx:alpine"
         volumes = [
