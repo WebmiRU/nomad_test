@@ -27,22 +27,14 @@ job "php-app" {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
         options {
-          archive = true
+          archive = true # Это заставит Nomad распаковать .tar.gz
         }
-
-         mode = "tgz"
       }
 
       config {
         image = "php:8.2-fpm-alpine"
-        # Выполняем chmod и запускаем PHP
         command = "/bin/sh"
         args = ["-c", "chmod -R 755 /local/repo && php-fpm"]
-      }
-
-      resources {
-        disk   = 100
-        memory = 128
       }
     }
 
@@ -55,13 +47,10 @@ job "php-app" {
         options {
           archive = true
         }
-
-        mode = "tgz"
       }
 
       config {
         image = "nginx:alpine"
-        # Монтируем ТОЛЬКО конфиг, папка local уже проброшена Nomad-ом внутрь как /local
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf"
         ]
@@ -71,6 +60,8 @@ job "php-app" {
 
       template {
         data = <<EOH
+user root; # Работаем от root, чтобы не было 403
+
 server {
     listen 80;
     root /local/repo;
@@ -91,4 +82,3 @@ EOH
     }
   }
 }
-
