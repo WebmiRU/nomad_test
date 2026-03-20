@@ -24,7 +24,7 @@ job "php-app" {
       driver = "docker"
 
       artifact {
-        source      = "https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.zip"
+        source = "https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.tar.gz"
         destination = "local/repo"
         options {
           archive = true
