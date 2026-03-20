@@ -13,7 +13,7 @@ job "php-app" {
       provider = "nomad"
       tags = [
         "traefik.enable=true",
-        "traefik.http.routers.phpapp.rule=Host(`php.b220.ru`)",
+        "traefik.http.routers.phpapp.rule=Host(`php.b220.ru`) house",
         "traefik.http.routers.phpapp.entrypoints=websecure",
         "traefik.http.routers.phpapp.tls=true",
         "traefik.http.routers.phpapp.tls.certresolver=myresolver"
@@ -23,9 +23,9 @@ job "php-app" {
     task "php" {
       driver = "docker"
 
-      # Скачиваем в ОБЩУЮ папку группы (alloc)
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud"
+        # Распаковываем в корень общей папки alloc
         destination = "alloc/repo"
         options {
           archive = true
@@ -34,9 +34,9 @@ job "php-app" {
 
       config {
         image = "php:8.2-fpm-alpine"
-        # Мапим из общей папки alloc
+        # Используем переменную NOMAD_ALLOC_DIR для маппинга
         volumes = [
-          "alloc/repo:/var/www/html"
+          "../alloc/repo:/var/www/html"
         ]
       }
 
@@ -51,10 +51,9 @@ job "php-app" {
 
       config {
         image = "nginx:alpine"
-        # Прокидываем конфиг и ТУ ЖЕ общую папку alloc
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "alloc/repo:/var/www/html"
+          "../alloc/repo:/var/www/html"
         ]
       }
 
