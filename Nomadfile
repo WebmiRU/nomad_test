@@ -22,49 +22,63 @@ job "php-app" {
 
     task "php" {
       driver = "docker"
+
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
-        options { archive = true }
+        options {
+          archive = true
+        }
       }
+
       config {
         image = "php:8.2-fpm-alpine"
-        volumes = ["local/repo:/var/www/html"]
-        # Исправляем права на случай если в архиве они кривые
+        # Выполняем chmod и запускаем PHP
         command = "/bin/sh"
-        args = ["-c", "chmod -R 755 /var/www/html && php-fpm"]
+        args = ["-c", "chmod -R 755 /local/repo && php-fpm"]
+      }
+
+      resources {
+        disk   = 100
+        memory = 128
       }
     }
 
     task "nginx" {
       driver = "docker"
-      # Дублируем скачивание сюда, чтобы nginx точно видел файлы
+
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
-        options { archive = true }
+        options {
+          archive = true
+        }
       }
+
       config {
         image = "nginx:alpine"
+        # Монтируем ТОЛЬКО конфиг, папка local уже проброшена Nomad-ом внутрь как /local
         volumes = [
-          "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "local/repo:/var/www/html"
+          "local/nginx.conf:/etc/nginx/conf.d/default.conf"
         ]
         command = "/bin/sh"
-        args = ["-c", "chmod -R 755 /var/www/html && nginx -g 'daemon off;'"]
+        args = ["-c", "chmod -R 755 /local/repo && nginx -g 'daemon off;'"]
       }
+
       template {
         data = <<EOH
 server {
     listen 80;
-    root /var/www/html;
+    root /local/repo;
     index index.php;
-    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
     location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
         include fastcgi_params;
-        fastcgi_param SCRIPT_FILENAME /var/www/html$fastcgi_script_name;
+        fastcgi_param SCRIPT_FILENAME /local/repo$fastcgi_script_name;
     }
 }
 EOH
@@ -73,3 +87,4 @@ EOH
     }
   }
 }
+
