@@ -26,7 +26,7 @@ job "php-app" {
 
       # Клонируем код прямо из твоего GitHub
       artifact {
-        source      = "git::https://github.com/WebmiRU/nomad_test.git?ref=master"
+        source      = "git::https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.zip"
         destination = "local/repo"
       }
 
