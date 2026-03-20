@@ -20,40 +20,37 @@ job "php-app" {
       ]
     }
 
+    # Задача с PHP
     task "php" {
       driver = "docker"
 
       artifact {
-        source = "https://github.com/WebmiRU/nomad_test/archive/refs/heads/master.tar.gz"
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "local/repo"
-        options {
-          archive = true
-        }
       }
 
       config {
         image = "php:8.2-fpm-alpine"
-        # Все volumes должны быть только здесь!
         volumes = [
-          "local/repo/nomad_test-master:/var/www/html"
+          "local/repo:/var/www/html"
         ]
       }
 
       resources {
-        disk   = 100
+        disk = 100
         memory = 128
       }
     }
 
+    # Задача с Nginx
     task "nginx" {
       driver = "docker"
 
       config {
         image = "nginx:alpine"
-        # Все volumes должны быть только здесь!
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "local/repo/nomad_test-master:/var/www/html"
+          "local/repo:/var/www/html"
         ]
       }
 
@@ -63,7 +60,9 @@ server {
     listen 80;
     root /var/www/html;
     index index.php;
-    location / { try_files $uri $uri/ /index.php?$query_string; }
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
     location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
