@@ -24,12 +24,10 @@ job "nginx-static" {
       driver = "docker"
 
       artifact {
+        # Добавляем принудительный флаг архива для go-getter
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        # Указываем расширение в пути, чтобы Nomad точно понял, что это архив
-        destination = "local/repo.zip"
-        options {
-          archive = "true"
-        }
+        # Указываем папку назначения БЕЗ расширения .zip, чтобы Nomad не путался
+        destination = "local/repo"
       }
 
       config {
@@ -43,8 +41,8 @@ job "nginx-static" {
         data = <<EOH
 server {
     listen 80;
-    # Файлы окажутся внутри папки /local/repo.zip/
-    root /local/repo.zip;
+    # Теперь файлы будут лежать здесь
+    root /local/repo;
     index index.php index.html;
     location / {
         try_files $uri $uri/ =404;
