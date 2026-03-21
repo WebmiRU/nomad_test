@@ -1,23 +1,9 @@
-job "nginx-static" {
+job "nginx-test" {
   datacenters = ["dc1"]
-
   group "web" {
     network {
       mode = "bridge"
       port "http" { to = 80 }
-    }
-
-    service {
-      name = "nginx-static"
-      port = "http"
-      provider = "nomad"
-      tags = [
-        "traefik.enable=true",
-        "traefik.http.routers.static.rule=Host(`php.b220.ru`)",
-        "traefik.http.routers.static.entrypoints=websecure",
-        "traefik.http.routers.static.tls=true",
-        "traefik.http.routers.static.tls.certresolver=myresolver"
-      ]
     }
 
     task "server" {
@@ -25,44 +11,30 @@ job "nginx-static" {
 
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
+        # Скачиваем прямо в local задачи
         destination = "local/repo"
-        options {
-          archive = true
-        }
+        options { archive = true }
       }
 
       config {
         image = "nginx:alpine"
-        volumes = [
-          "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "local/repo:/usr/share/nginx/html"
-        ]
+        # МЫ НЕ МАПИМ ПАПКУ, а правим конфиг Nginx смотреть в /local/repo
+        volumes = ["local/nginx.conf:/etc/nginx/conf.d/default.conf"]
       }
 
       template {
         data = <<EOH
 server {
     listen 80;
-    server_name localhost;
-    root /usr/share/nginx/html;
+    # Nomad прокидывает свою папку local в /local контейнера автоматически
+    root /local/repo;
     index index.php index.html;
-
     location / {
-        # Заставляем Nginx отображать .php как обычный текст/html,
-        # так как у нас сейчас нет PHP-процесса
-        location ~ \.php$ {
-            default_type text/html;
-        }
         try_files $uri $uri/ =404;
     }
 }
 EOH
         destination = "local/nginx.conf"
-      }
-
-      resources {
-        cpu    = 100
-        memory = 64
       }
     }
   }
