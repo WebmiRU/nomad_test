@@ -23,9 +23,9 @@ job "php-app" {
     task "php" {
       driver = "docker"
 
+      # Качаем артефакт в ОБЩУЮ папку группы (alloc)
       artifact {
-        source      = "https://s3.ru1.storage.beget.cloud"
-        # Качаем в общую папку группы alloc, чтобы nginx тоже видел
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code1.tar.gz"
         destination = "alloc/repo"
         options {
           archive = true
@@ -34,17 +34,24 @@ job "php-app" {
 
       config {
         image = "php:8.2-fpm-alpine"
-        volumes = ["../alloc/repo:/var/www/html"]
-        # Исправляем права на случай, если в архиве они root-only
-        command = "/bin/sh"
-        args    = ["-c", "chmod -R 755 /var/www/html && php-fpm"]
+        # Мапим из общей папки alloc (выходим на уровень выше из папки задачи)
+        volumes = [
+          "../alloc/repo:/var/www/html"
+        ]
+      }
+
+      resources {
+        cpu    = 100
+        memory = 128
       }
     }
 
     task "nginx" {
       driver = "docker"
+
       config {
         image = "nginx:alpine"
+        # Прокидываем конфиг и ТУ ЖЕ самую общую папку с кодом
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
           "../alloc/repo:/var/www/html"
@@ -57,9 +64,11 @@ server {
     listen 80;
     root /var/www/html;
     index index.php;
+
     location / {
         try_files $uri $uri/ /index.php?$query_string;
     }
+
     location ~ \.php$ {
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
