@@ -1,0 +1,1000 @@
+    2026-03-21T17:22:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c164ff9b-cb75-cbe7-701f-76a9a8436ca5 type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=5482a69d-8b7d-5631-4ab6-f65d6c5f4db0 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=5482a69d-8b7d-5631-4ab6-f65d6c5f4db0 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=931963c3-34bf-9556-26f3-fbda50c2901b type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=931963c3-34bf-9556-26f3-fbda50c2901b type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.091Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=b7253b89-c9f4-6335-93a5-312e3a547622 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:46.091Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=b7253b89-c9f4-6335-93a5-312e3a547622 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:22:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="683.394µs"
+    2026-03-21T17:22:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="681.13µs"
+    2026-03-21T17:22:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="835.169µs"
+    2026-03-21T17:22:52.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="494.23µs"
+    2026-03-21T17:22:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="741.572µs"
+    2026-03-21T17:22:56.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="316.425µs"
+    2026-03-21T17:22:57.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="362.284µs"
+    2026-03-21T17:22:57.105Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="263.421µs"
+    2026-03-21T17:23:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.166µs"
+    2026-03-21T17:23:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="358.485µs"
+    2026-03-21T17:23:04.558Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.780991ms
+    2026-03-21T17:23:04.615Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="281.56µs"
+    2026-03-21T17:23:08.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="338.435µs"
+    2026-03-21T17:23:08.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.500886ms
+    2026-03-21T17:23:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="395.653µs"
+    2026-03-21T17:23:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="280.473µs"
+    2026-03-21T17:23:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="251.169µs"
+    2026-03-21T17:23:12.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="288.105µs"
+    2026-03-21T17:23:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="261.583µs"
+    2026-03-21T17:23:16.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="607.909µs"
+    2026-03-21T17:23:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="400.542µs"
+    2026-03-21T17:23:20.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="590.265µs"
+    2026-03-21T17:23:24.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="606.004µs"
+    2026-03-21T17:23:24.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="632.756µs"
+    2026-03-21T17:23:27.109Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="702.562µs"
+    2026-03-21T17:23:27.110Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="665.501µs"
+    2026-03-21T17:23:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="367.78µs"
+    2026-03-21T17:23:28.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="339.269µs"
+    2026-03-21T17:23:31.508Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=5m1.073569221s
+    2026-03-21T17:23:32.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="860.166µs"
+    2026-03-21T17:23:32.588Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration=1.63253ms
+    2026-03-21T17:23:32.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="264.51µs"
+    2026-03-21T17:23:36.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="705.209µs"
+    2026-03-21T17:23:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="662.406µs"
+    2026-03-21T17:23:40.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="640.558µs"
+    2026-03-21T17:23:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="702.149µs"
+    2026-03-21T17:23:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="760.224µs"
+    2026-03-21T17:23:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="361.699µs"
+    2026-03-21T17:23:44.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="326.414µs"
+    2026-03-21T17:23:44.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="296.317µs"
+    2026-03-21T17:23:48.372Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=5m16.876635869s
+    2026-03-21T17:23:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="363.949µs"
+    2026-03-21T17:23:48.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="277.19µs"
+    2026-03-21T17:23:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="386.135µs"
+    2026-03-21T17:23:52.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="596.845µs"
+    2026-03-21T17:23:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="637.296µs"
+    2026-03-21T17:23:56.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="647.54µs"
+    2026-03-21T17:23:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="792.65µs"
+    2026-03-21T17:23:57.108Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=2.29665ms
+    2026-03-21T17:24:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="308.709µs"
+    2026-03-21T17:24:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="290.198µs"
+    2026-03-21T17:24:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="429.215µs"
+    2026-03-21T17:24:04.611Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="218.546µs"
+    2026-03-21T17:24:08.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.25µs"
+    2026-03-21T17:24:08.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="721.532µs"
+    2026-03-21T17:24:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="644.299µs"
+    2026-03-21T17:24:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="291.254µs"
+    2026-03-21T17:24:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="356.107µs"
+    2026-03-21T17:24:12.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="307.829µs"
+    2026-03-21T17:24:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.328µs"
+    2026-03-21T17:24:16.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="264.076µs"
+    2026-03-21T17:24:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="351.31µs"
+    2026-03-21T17:24:20.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="270.613µs"
+    2026-03-21T17:24:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="457.373µs"
+    2026-03-21T17:24:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="362.085µs"
+    2026-03-21T17:24:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="438.783µs"
+    2026-03-21T17:24:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="364.152µs"
+    2026-03-21T17:24:28.559Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="414.695µs"
+    2026-03-21T17:24:28.623Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="293.234µs"
+    2026-03-21T17:24:31.743Z [DEBUG] client: received stale allocation information; retrying: index=378 min_index=453
+    2026-03-21T17:24:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="460.925µs"
+    2026-03-21T17:24:32.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="337.525µs"
+    2026-03-21T17:24:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="671.583µs"
+    2026-03-21T17:24:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="683.41µs"
+    2026-03-21T17:24:40.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="716.288µs"
+    2026-03-21T17:24:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="658.777µs"
+    2026-03-21T17:24:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="830.049µs"
+    2026-03-21T17:24:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="836.339µs"
+    2026-03-21T17:24:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="752.931µs"
+    2026-03-21T17:24:44.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="576.409µs"
+    2026-03-21T17:24:48.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.000426ms
+    2026-03-21T17:24:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="649.477µs"
+    2026-03-21T17:24:52.560Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="642.734µs"
+    2026-03-21T17:24:52.617Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="563.909µs"
+    2026-03-21T17:24:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="615.184µs"
+    2026-03-21T17:24:56.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="650.688µs"
+    2026-03-21T17:24:57.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="342.127µs"
+    2026-03-21T17:24:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="678.238µs"
+    2026-03-21T17:25:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="255.579µs"
+    2026-03-21T17:25:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="255.567µs"
+    2026-03-21T17:25:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="275.665µs"
+    2026-03-21T17:25:04.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.536µs"
+    2026-03-21T17:25:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="363.121µs"
+    2026-03-21T17:25:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="284.77µs"
+    2026-03-21T17:25:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="302.463µs"
+    2026-03-21T17:25:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="409.683µs"
+    2026-03-21T17:25:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="764.302µs"
+    2026-03-21T17:25:12.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.379941ms
+    2026-03-21T17:25:16.561Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="722.991µs"
+    2026-03-21T17:25:16.617Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="969.813µs"
+    2026-03-21T17:25:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="346.041µs"
+    2026-03-21T17:25:20.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.850079ms
+    2026-03-21T17:25:24.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="582.403µs"
+    2026-03-21T17:25:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="303.17µs"
+    2026-03-21T17:25:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="449.594µs"
+    2026-03-21T17:25:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="441.647µs"
+    2026-03-21T17:25:28.562Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="285.184µs"
+    2026-03-21T17:25:28.619Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="716.205µs"
+    2026-03-21T17:25:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="308.303µs"
+    2026-03-21T17:25:32.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="630.396µs"
+    2026-03-21T17:25:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="785.632µs"
+    2026-03-21T17:25:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="984.798µs"
+    2026-03-21T17:25:40.561Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="670.115µs"
+    2026-03-21T17:25:40.617Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="698.024µs"
+    2026-03-21T17:25:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="869.457µs"
+    2026-03-21T17:25:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="841.004µs"
+    2026-03-21T17:25:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="607.261µs"
+    2026-03-21T17:25:44.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="787.836µs"
+    2026-03-21T17:25:48.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="633.705µs"
+    2026-03-21T17:25:48.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="663.433µs"
+    2026-03-21T17:25:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="566.989µs"
+    2026-03-21T17:25:52.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="487.171µs"
+    2026-03-21T17:25:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="587.539µs"
+    2026-03-21T17:25:56.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="646.486µs"
+    2026-03-21T17:25:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="726.334µs"
+    2026-03-21T17:25:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="541.991µs"
+    2026-03-21T17:26:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="820.698µs"
+    2026-03-21T17:26:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="428.405µs"
+    2026-03-21T17:26:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="693.987µs"
+    2026-03-21T17:26:04.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="367.113µs"
+    2026-03-21T17:26:08.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="534.655µs"
+    2026-03-21T17:26:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="319.354µs"
+    2026-03-21T17:26:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="335.976µs"
+    2026-03-21T17:26:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="279.159µs"
+    2026-03-21T17:26:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="260.441µs"
+    2026-03-21T17:26:12.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.583µs"
+    2026-03-21T17:26:16.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="548.729µs"
+    2026-03-21T17:26:16.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="584.339µs"
+    2026-03-21T17:26:20.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="725.193µs"
+    2026-03-21T17:26:20.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="572.702µs"
+    2026-03-21T17:26:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="577.223µs"
+    2026-03-21T17:26:24.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="595.883µs"
+    2026-03-21T17:26:27.107Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="819.149µs"
+    2026-03-21T17:26:27.114Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=5.860596ms
+    2026-03-21T17:26:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="362.835µs"
+    2026-03-21T17:26:28.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="291.664µs"
+    2026-03-21T17:26:32.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="546.734µs"
+    2026-03-21T17:26:32.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="512.353µs"
+    2026-03-21T17:26:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="444.621µs"
+    2026-03-21T17:26:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="699.726µs"
+    2026-03-21T17:26:40.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="349.148µs"
+    2026-03-21T17:26:40.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="648.928µs"
+    2026-03-21T17:26:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="772.334µs"
+    2026-03-21T17:26:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="810.928µs"
+    2026-03-21T17:26:44.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="734.091µs"
+    2026-03-21T17:26:44.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="613.971µs"
+    2026-03-21T17:26:48.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="714.569µs"
+    2026-03-21T17:26:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="676.208µs"
+    2026-03-21T17:26:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="562.106µs"
+    2026-03-21T17:26:52.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="550.184µs"
+    2026-03-21T17:26:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="627.952µs"
+    2026-03-21T17:26:56.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="480.776µs"
+    2026-03-21T17:26:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="575.051µs"
+    2026-03-21T17:26:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="778.049µs"
+    2026-03-21T17:27:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="648.521µs"
+    2026-03-21T17:27:00.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=4.937258ms
+    2026-03-21T17:27:04.557Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="610.891µs"
+    2026-03-21T17:27:04.614Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="593.247µs"
+    2026-03-21T17:27:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="715.633µs"
+    2026-03-21T17:27:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="598.825µs"
+    2026-03-21T17:27:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="749.413µs"
+    2026-03-21T17:27:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="689.823µs"
+    2026-03-21T17:27:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="683.461µs"
+    2026-03-21T17:27:12.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="264.739µs"
+    2026-03-21T17:27:16.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="331.959µs"
+    2026-03-21T17:27:16.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="293.389µs"
+    2026-03-21T17:27:20.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="281.728µs"
+    2026-03-21T17:27:20.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="713.573µs"
+    2026-03-21T17:27:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="691.918µs"
+    2026-03-21T17:27:24.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="392.648µs"
+    2026-03-21T17:27:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="461.899µs"
+    2026-03-21T17:27:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="454.744µs"
+    2026-03-21T17:27:28.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="784.616µs"
+    2026-03-21T17:27:28.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="743.837µs"
+    2026-03-21T17:27:32.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="743.912µs"
+    2026-03-21T17:27:32.611Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="459.727µs"
+    2026-03-21T17:27:36.556Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=5.436363ms
+    2026-03-21T17:27:36.615Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="655.068µs"
+    2026-03-21T17:27:40.818Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="680.137µs"
+    2026-03-21T17:27:40.876Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="784.873µs"
+    2026-03-21T17:27:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="732.998µs"
+    2026-03-21T17:27:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="751.769µs"
+    2026-03-21T17:27:44.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="360.914µs"
+    2026-03-21T17:27:44.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="642.584µs"
+    2026-03-21T17:27:46.065Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e8086127-0455-b6d8-4874-0b64916111a1 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.065Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e8086127-0455-b6d8-4874-0b64916111a1 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.065Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=197d75a9-d443-ef79-02d3-04f464855d6b type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=197d75a9-d443-ef79-02d3-04f464855d6b type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=8de3e52b-19f5-3a6f-6ba7-e4a02fa0b116 type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=8de3e52b-19f5-3a6f-6ba7-e4a02fa0b116 type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e5ffdc14-5f17-a322-7344-89eba682faf0 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e5ffdc14-5f17-a322-7344-89eba682faf0 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c0a6026f-798d-536c-7d24-6c600652e0ba type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c0a6026f-798d-536c-7d24-6c600652e0ba type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=80e0e8c2-98d4-3510-57d0-e2c0a0c2772a type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=80e0e8c2-98d4-3510-57d0-e2c0a0c2772a type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.092Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ee197f87-68c8-a370-40f8-6628a0a7b1e2 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:46.092Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ee197f87-68c8-a370-40f8-6628a0a7b1e2 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:27:48.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="847.99µs"
+    2026-03-21T17:27:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="722.285µs"
+    2026-03-21T17:27:52.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="773.937µs"
+    2026-03-21T17:27:52.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="835.878µs"
+    2026-03-21T17:27:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="357.455µs"
+    2026-03-21T17:27:56.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="250.19µs"
+    2026-03-21T17:27:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="586.681µs"
+    2026-03-21T17:27:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="854.138µs"
+    2026-03-21T17:28:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="647.741µs"
+    2026-03-21T17:28:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="355.447µs"
+    2026-03-21T17:28:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="389.064µs"
+    2026-03-21T17:28:04.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="289.513µs"
+    2026-03-21T17:28:08.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="501.071µs"
+    2026-03-21T17:28:08.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="680.944µs"
+    2026-03-21T17:28:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="691.628µs"
+    2026-03-21T17:28:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="527.676µs"
+    2026-03-21T17:28:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="473.514µs"
+    2026-03-21T17:28:12.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="409.6µs"
+    2026-03-21T17:28:16.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="320.301µs"
+    2026-03-21T17:28:16.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="607.38µs"
+    2026-03-21T17:28:20.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="666.914µs"
+    2026-03-21T17:28:20.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="712.368µs"
+    2026-03-21T17:28:24.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="781.566µs"
+    2026-03-21T17:28:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="676.191µs"
+    2026-03-21T17:28:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="735.651µs"
+    2026-03-21T17:28:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="859.365µs"
+    2026-03-21T17:28:28.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="689.324µs"
+    2026-03-21T17:28:28.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="707.519µs"
+    2026-03-21T17:28:32.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="721.151µs"
+    2026-03-21T17:28:32.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="686.187µs"
+    2026-03-21T17:28:35.953Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=5m1.285290263s
+    2026-03-21T17:28:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="690.368µs"
+    2026-03-21T17:28:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="654.714µs"
+    2026-03-21T17:28:37.016Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="699.077µs"
+    2026-03-21T17:28:40.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="657.655µs"
+    2026-03-21T17:28:40.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="288.001µs"
+    2026-03-21T17:28:42.110Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=5.469429ms
+    2026-03-21T17:28:42.128Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=14.885526ms
+    2026-03-21T17:28:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="593.209µs"
+    2026-03-21T17:28:44.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="721.557µs"
+    2026-03-21T17:28:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="682.589µs"
+    2026-03-21T17:28:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="724.985µs"
+    2026-03-21T17:28:52.102Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=5m16.37303204s
+    2026-03-21T17:28:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="349.633µs"
+    2026-03-21T17:28:52.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="647.894µs"
+    2026-03-21T17:28:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="287.34µs"
+    2026-03-21T17:28:56.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="250.458µs"
+    2026-03-21T17:28:57.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="305.189µs"
+    2026-03-21T17:28:57.105Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="279.238µs"
+    2026-03-21T17:29:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="307.227µs"
+    2026-03-21T17:29:00.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="284.313µs"
+    2026-03-21T17:29:04.559Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="266.386µs"
+    2026-03-21T17:29:04.615Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="463.085µs"
+    2026-03-21T17:29:08.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="960.628µs"
+    2026-03-21T17:29:08.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="534.294µs"
+    2026-03-21T17:29:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="388.405µs"
+    2026-03-21T17:29:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="307.254µs"
+    2026-03-21T17:29:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="266.444µs"
+    2026-03-21T17:29:12.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="247.756µs"
+    2026-03-21T17:29:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="644.214µs"
+    2026-03-21T17:29:16.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="302.467µs"
+    2026-03-21T17:29:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="649.557µs"
+    2026-03-21T17:29:20.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="641.632µs"
+    2026-03-21T17:29:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="611.453µs"
+    2026-03-21T17:29:24.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="998.452µs"
+    2026-03-21T17:29:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=1.026584ms
+    2026-03-21T17:29:27.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="700.796µs"
+    2026-03-21T17:29:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="373.029µs"
+    2026-03-21T17:29:28.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="329.285µs"
+    2026-03-21T17:29:32.553Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.237548ms
+    2026-03-21T17:29:32.613Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.560191ms
+    2026-03-21T17:29:36.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="621.299µs"
+    2026-03-21T17:29:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="657.603µs"
+    2026-03-21T17:29:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="573.735µs"
+    2026-03-21T17:29:40.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="664.562µs"
+    2026-03-21T17:29:42.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="704.126µs"
+    2026-03-21T17:29:42.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="349.899µs"
+    2026-03-21T17:29:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="306.399µs"
+    2026-03-21T17:29:44.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="301.466µs"
+    2026-03-21T17:29:48.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="374.07µs"
+    2026-03-21T17:29:48.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="362.784µs"
+    2026-03-21T17:29:49.624Z [DEBUG] client: received stale allocation information; retrying: index=378 min_index=453
+    2026-03-21T17:29:52.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="277.973µs"
+    2026-03-21T17:29:52.611Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="342.356µs"
+    2026-03-21T17:29:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="262.407µs"
+    2026-03-21T17:29:56.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="620.734µs"
+    2026-03-21T17:29:57.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="871.304µs"
+    2026-03-21T17:29:57.108Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="589.624µs"
+    2026-03-21T17:30:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="289.795µs"
+    2026-03-21T17:30:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="261.593µs"
+    2026-03-21T17:30:04.556Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="493.92µs"
+    2026-03-21T17:30:04.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="260.902µs"
+    2026-03-21T17:30:08.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="278.426µs"
+    2026-03-21T17:30:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="855.377µs"
+    2026-03-21T17:30:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=1.088912ms
+    2026-03-21T17:30:12.108Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="819.139µs"
+    2026-03-21T17:30:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="302.943µs"
+    2026-03-21T17:30:12.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="253.12µs"
+    2026-03-21T17:30:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="703.709µs"
+    2026-03-21T17:30:16.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="950.053µs"
+    2026-03-21T17:30:20.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="945.435µs"
+    2026-03-21T17:30:20.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="490.294µs"
+    2026-03-21T17:30:24.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.084524ms
+    2026-03-21T17:30:24.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="796.389µs"
+    2026-03-21T17:30:27.107Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="842.658µs"
+    2026-03-21T17:30:27.108Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="733.695µs"
+    2026-03-21T17:30:28.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="662.868µs"
+    2026-03-21T17:30:28.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="719.956µs"
+    2026-03-21T17:30:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.845µs"
+    2026-03-21T17:30:32.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="301.468µs"
+    2026-03-21T17:30:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="331.26µs"
+    2026-03-21T17:30:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="706.712µs"
+    2026-03-21T17:30:40.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="712.466µs"
+    2026-03-21T17:30:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="290.198µs"
+    2026-03-21T17:30:42.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="316.323µs"
+    2026-03-21T17:30:42.105Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="275.292µs"
+    2026-03-21T17:30:44.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="651.226µs"
+    2026-03-21T17:30:44.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="616.3µs"
+    2026-03-21T17:30:48.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="802.067µs"
+    2026-03-21T17:30:48.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.686712ms
+    2026-03-21T17:30:52.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="268.393µs"
+    2026-03-21T17:30:52.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="271.607µs"
+    2026-03-21T17:30:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="505.281µs"
+    2026-03-21T17:30:56.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="251.801µs"
+    2026-03-21T17:30:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="318.435µs"
+    2026-03-21T17:30:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="572.449µs"
+    2026-03-21T17:31:00.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="869.362µs"
+    2026-03-21T17:31:00.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="269.622µs"
+    2026-03-21T17:31:04.554Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="329.748µs"
+    2026-03-21T17:31:04.611Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="446.642µs"
+    2026-03-21T17:31:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="390.677µs"
+    2026-03-21T17:31:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="288.747µs"
+    2026-03-21T17:31:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="349.258µs"
+    2026-03-21T17:31:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="308.301µs"
+    2026-03-21T17:31:12.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="701.24µs"
+    2026-03-21T17:31:12.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="575.45µs"
+    2026-03-21T17:31:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="405.726µs"
+    2026-03-21T17:31:16.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="396.174µs"
+    2026-03-21T17:31:20.552Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.832427ms
+    2026-03-21T17:31:20.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="343.434µs"
+    2026-03-21T17:31:24.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=5.275926ms
+    2026-03-21T17:31:24.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="665.365µs"
+    2026-03-21T17:31:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="899.569µs"
+    2026-03-21T17:31:27.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="710.597µs"
+    2026-03-21T17:31:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="670.855µs"
+    2026-03-21T17:31:28.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="689.354µs"
+    2026-03-21T17:31:32.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="317.779µs"
+    2026-03-21T17:31:32.613Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="332.257µs"
+    2026-03-21T17:31:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="693.847µs"
+    2026-03-21T17:31:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="684.384µs"
+    2026-03-21T17:31:40.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="669.116µs"
+    2026-03-21T17:31:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="690.817µs"
+    2026-03-21T17:31:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="855.337µs"
+    2026-03-21T17:31:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="374.456µs"
+    2026-03-21T17:31:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="341.088µs"
+    2026-03-21T17:31:44.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="355.451µs"
+    2026-03-21T17:31:48.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="387.511µs"
+    2026-03-21T17:31:48.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="633.175µs"
+    2026-03-21T17:31:52.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="743.711µs"
+    2026-03-21T17:31:52.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="687.449µs"
+    2026-03-21T17:31:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="439.043µs"
+    2026-03-21T17:31:56.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="296.569µs"
+    2026-03-21T17:31:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="622.761µs"
+    2026-03-21T17:31:57.110Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=4.154152ms
+    2026-03-21T17:32:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="434.862µs"
+    2026-03-21T17:32:00.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="344.679µs"
+    2026-03-21T17:32:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="413.07µs"
+    2026-03-21T17:32:04.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="341.77µs"
+    2026-03-21T17:32:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="297.735µs"
+    2026-03-21T17:32:08.622Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="624.875µs"
+    2026-03-21T17:32:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=1.014833ms
+    2026-03-21T17:32:12.108Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=1.062745ms
+    2026-03-21T17:32:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="905.772µs"
+    2026-03-21T17:32:12.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="731.215µs"
+    2026-03-21T17:32:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="661.204µs"
+    2026-03-21T17:32:16.613Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="855.707µs"
+    2026-03-21T17:32:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="717.733µs"
+    2026-03-21T17:32:20.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="691.857µs"
+    2026-03-21T17:32:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="699.179µs"
+    2026-03-21T17:32:24.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="796.742µs"
+    2026-03-21T17:32:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="872.58µs"
+    2026-03-21T17:32:27.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=1.04953ms
+    2026-03-21T17:32:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="641.853µs"
+    2026-03-21T17:32:28.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="650.29µs"
+    2026-03-21T17:32:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="726.264µs"
+    2026-03-21T17:32:32.619Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=11.053268ms
+    2026-03-21T17:32:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="621.662µs"
+    2026-03-21T17:32:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="652.492µs"
+    2026-03-21T17:32:40.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="855.782µs"
+    2026-03-21T17:32:40.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="892.974µs"
+    2026-03-21T17:32:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="737.351µs"
+    2026-03-21T17:32:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="424.478µs"
+    2026-03-21T17:32:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="659.603µs"
+    2026-03-21T17:32:44.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.758µs"
+    2026-03-21T17:32:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=1d26b97a-0de7-805c-d285-d59d6ea7de44 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=1d26b97a-0de7-805c-d285-d59d6ea7de44 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ef00e5c2-3eee-27e5-9ba7-a59c52cf184e type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ef00e5c2-3eee-27e5-9ba7-a59c52cf184e type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=539b3a05-e958-ba5d-ef5c-c707be829bb8 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=539b3a05-e958-ba5d-ef5c-c707be829bb8 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c5b0239d-b9b2-dc37-5be8-92734b248f0a type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c5b0239d-b9b2-dc37-5be8-92734b248f0a type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=22d702a0-bf5a-316d-8c00-f8455902b26a type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=22d702a0-bf5a-316d-8c00-f8455902b26a type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=fed46823-82e2-929f-6d34-459d569f8a8b type=_core namespace=- job_id=one-time-token-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=fed46823-82e2-929f-6d34-459d569f8a8b type=_core namespace=- job_id=one-time-token-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=79f8ff43-1208-45d5-5e3d-2947da3850b1 type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=79f8ff43-1208-45d5-5e3d-2947da3850b1 type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=f58392b6-7862-a7b7-c1e7-09d3b72f5e51 type=_core namespace=- job_id=variables-rekey node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=f58392b6-7862-a7b7-c1e7-09d3b72f5e51 type=_core namespace=- job_id=variables-rekey node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ad5ecb3b-d8fe-79c2-96bf-7e2452dad441 type=_core namespace=- job_id=root-key-rotate-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.068Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ad5ecb3b-d8fe-79c2-96bf-7e2452dad441 type=_core namespace=- job_id=root-key-rotate-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.092Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e5b6d8bc-9f43-5f3a-b995-6bd09627c51b type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:46.092Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e5b6d8bc-9f43-5f3a-b995-6bd09627c51b type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:32:48.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="343.795µs"
+    2026-03-21T17:32:48.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="252.4µs"
+    2026-03-21T17:32:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="396.873µs"
+    2026-03-21T17:32:52.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="271.727µs"
+    2026-03-21T17:32:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="651.402µs"
+    2026-03-21T17:32:56.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="275.502µs"
+    2026-03-21T17:32:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="878.446µs"
+    2026-03-21T17:32:57.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="981.374µs"
+    2026-03-21T17:33:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="391.236µs"
+    2026-03-21T17:33:00.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="300.915µs"
+    2026-03-21T17:33:04.558Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="816.077µs"
+    2026-03-21T17:33:04.618Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="660.621µs"
+    2026-03-21T17:33:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="700.999µs"
+    2026-03-21T17:33:08.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="690.169µs"
+    2026-03-21T17:33:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="435.482µs"
+    2026-03-21T17:33:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="755.326µs"
+    2026-03-21T17:33:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="869.149µs"
+    2026-03-21T17:33:12.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="932.845µs"
+    2026-03-21T17:33:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="705.849µs"
+    2026-03-21T17:33:16.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="759.632µs"
+    2026-03-21T17:33:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="371.489µs"
+    2026-03-21T17:33:20.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="635.33µs"
+    2026-03-21T17:33:24.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.809897ms
+    2026-03-21T17:33:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="583.079µs"
+    2026-03-21T17:33:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="713.095µs"
+    2026-03-21T17:33:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="399.563µs"
+    2026-03-21T17:33:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="287.273µs"
+    2026-03-21T17:33:28.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="247.167µs"
+    2026-03-21T17:33:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="271.116µs"
+    2026-03-21T17:33:32.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="818.956µs"
+    2026-03-21T17:33:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="318.887µs"
+    2026-03-21T17:33:36.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="232.256µs"
+    2026-03-21T17:33:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="286.398µs"
+    2026-03-21T17:33:40.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="313.851µs"
+    2026-03-21T17:33:41.650Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=5m1.573824512s
+    2026-03-21T17:33:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="632.657µs"
+    2026-03-21T17:33:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="269.984µs"
+    2026-03-21T17:33:42.861Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=5m3.843723621s
+    2026-03-21T17:33:43.926Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration=2.025273ms
+    2026-03-21T17:33:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="416.502µs"
+    2026-03-21T17:33:44.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="269.282µs"
+    2026-03-21T17:33:48.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="350.07µs"
+    2026-03-21T17:33:48.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="329.468µs"
+    2026-03-21T17:33:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="292.926µs"
+    2026-03-21T17:33:52.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="392.34µs"
+    2026-03-21T17:33:56.615Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="271.892µs"
+    2026-03-21T17:33:56.675Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="639.168µs"
+    2026-03-21T17:33:57.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="367.487µs"
+    2026-03-21T17:33:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="668.51µs"
+    2026-03-21T17:34:00.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="764.729µs"
+    2026-03-21T17:34:00.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="764.124µs"
+    2026-03-21T17:34:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="913.263µs"
+    2026-03-21T17:34:04.614Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="862.384µs"
+    2026-03-21T17:34:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="332.19µs"
+    2026-03-21T17:34:08.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="697.507µs"
+    2026-03-21T17:34:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="753.565µs"
+    2026-03-21T17:34:12.110Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=4.340462ms
+    2026-03-21T17:34:12.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="776.145µs"
+    2026-03-21T17:34:12.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="687.926µs"
+    2026-03-21T17:34:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="716.417µs"
+    2026-03-21T17:34:16.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="581.928µs"
+    2026-03-21T17:34:20.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="933.477µs"
+    2026-03-21T17:34:20.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="475.355µs"
+    2026-03-21T17:34:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="647.647µs"
+    2026-03-21T17:34:24.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="381.044µs"
+    2026-03-21T17:34:27.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="336.598µs"
+    2026-03-21T17:34:27.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="283.81µs"
+    2026-03-21T17:34:28.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="294.421µs"
+    2026-03-21T17:34:28.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="244.774µs"
+    2026-03-21T17:34:32.554Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="289.285µs"
+    2026-03-21T17:34:32.614Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="265.626µs"
+    2026-03-21T17:34:36.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="276.749µs"
+    2026-03-21T17:34:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="709.4µs"
+    2026-03-21T17:34:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="321.245µs"
+    2026-03-21T17:34:40.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="234.806µs"
+    2026-03-21T17:34:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="382.365µs"
+    2026-03-21T17:34:42.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="270.852µs"
+    2026-03-21T17:34:44.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="256.853µs"
+    2026-03-21T17:34:44.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="608.277µs"
+    2026-03-21T17:34:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="385.763µs"
+    2026-03-21T17:34:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="601.65µs"
+    2026-03-21T17:34:52.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="842.708µs"
+    2026-03-21T17:34:52.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="778.216µs"
+    2026-03-21T17:34:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="763.324µs"
+    2026-03-21T17:34:56.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="705.942µs"
+    2026-03-21T17:34:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="821.656µs"
+    2026-03-21T17:34:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="751.006µs"
+    2026-03-21T17:34:57.191Z [DEBUG] client: received stale allocation information; retrying: index=378 min_index=453
+    2026-03-21T17:35:00.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="723.755µs"
+    2026-03-21T17:35:00.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="947.362µs"
+    2026-03-21T17:35:04.556Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="709.505µs"
+    2026-03-21T17:35:04.616Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.091764ms
+    2026-03-21T17:35:08.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=1.300855ms
+    2026-03-21T17:35:08.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=4.087428ms
+    2026-03-21T17:35:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="747.398µs"
+    2026-03-21T17:35:12.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="750.26µs"
+    2026-03-21T17:35:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="701.681µs"
+    2026-03-21T17:35:12.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="843.692µs"
+    2026-03-21T17:35:16.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="693.252µs"
+    2026-03-21T17:35:16.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="347.864µs"
+    2026-03-21T17:35:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="643.43µs"
+    2026-03-21T17:35:20.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="308.031µs"
+    2026-03-21T17:35:24.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="514.77µs"
+    2026-03-21T17:35:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="455.348µs"
+    2026-03-21T17:35:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="327.691µs"
+    2026-03-21T17:35:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="305.498µs"
+    2026-03-21T17:35:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="287.367µs"
+    2026-03-21T17:35:28.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="273.379µs"
+    2026-03-21T17:35:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="650.504µs"
+    2026-03-21T17:35:32.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="612.343µs"
+    2026-03-21T17:35:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="406.932µs"
+    2026-03-21T17:35:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="260.537µs"
+    2026-03-21T17:35:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="273.291µs"
+    2026-03-21T17:35:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.156155ms
+    2026-03-21T17:35:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="440.388µs"
+    2026-03-21T17:35:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="324.466µs"
+    2026-03-21T17:35:44.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="322.838µs"
+    2026-03-21T17:35:44.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="378.104µs"
+    2026-03-21T17:35:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="446.326µs"
+    2026-03-21T17:35:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="703.285µs"
+    2026-03-21T17:35:52.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="405.812µs"
+    2026-03-21T17:35:52.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="719.626µs"
+    2026-03-21T17:35:56.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="678.227µs"
+    2026-03-21T17:35:56.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="675.966µs"
+    2026-03-21T17:35:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="769.079µs"
+    2026-03-21T17:35:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="803.645µs"
+    2026-03-21T17:36:00.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="535.089µs"
+    2026-03-21T17:36:00.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="981.548µs"
+    2026-03-21T17:36:04.555Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="327.894µs"
+    2026-03-21T17:36:04.613Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="340.705µs"
+    2026-03-21T17:36:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="818.403µs"
+    2026-03-21T17:36:08.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="664.693µs"
+    2026-03-21T17:36:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=1.268265ms
+    2026-03-21T17:36:12.111Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration=4.171669ms
+    2026-03-21T17:36:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="648.716µs"
+    2026-03-21T17:36:12.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="619.777µs"
+    2026-03-21T17:36:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="890.823µs"
+    2026-03-21T17:36:16.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="772.212µs"
+    2026-03-21T17:36:20.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="658.014µs"
+    2026-03-21T17:36:20.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="599.421µs"
+    2026-03-21T17:36:24.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="638.298µs"
+    2026-03-21T17:36:24.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="341.918µs"
+    2026-03-21T17:36:27.109Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="366.349µs"
+    2026-03-21T17:36:27.110Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="264.671µs"
+    2026-03-21T17:36:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="257.669µs"
+    2026-03-21T17:36:28.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="259.316µs"
+    2026-03-21T17:36:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="599.933µs"
+    2026-03-21T17:36:32.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="586.14µs"
+    2026-03-21T17:36:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="704.082µs"
+    2026-03-21T17:36:36.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="575.21µs"
+    2026-03-21T17:36:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="376.098µs"
+    2026-03-21T17:36:40.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="296.206µs"
+    2026-03-21T17:36:42.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="335.424µs"
+    2026-03-21T17:36:42.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="702.873µs"
+    2026-03-21T17:36:44.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="352.738µs"
+    2026-03-21T17:36:44.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="307.588µs"
+    2026-03-21T17:36:48.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="297.808µs"
+    2026-03-21T17:36:48.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="369.86µs"
+    2026-03-21T17:36:52.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="291.369µs"
+    2026-03-21T17:36:52.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="259.45µs"
+    2026-03-21T17:36:56.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="432.41µs"
+    2026-03-21T17:36:56.610Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="735.242µs"
+    2026-03-21T17:36:57.108Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="770.199µs"
+    2026-03-21T17:36:57.110Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="757.408µs"
+    2026-03-21T17:37:00.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="682.717µs"
+    2026-03-21T17:37:00.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="703.846µs"
+    2026-03-21T17:37:04.557Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="380.464µs"
+    2026-03-21T17:37:04.616Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="372.21µs"
+    2026-03-21T17:37:08.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="321.521µs"
+    2026-03-21T17:37:08.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="351.747µs"
+    2026-03-21T17:37:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="670.326µs"
+    2026-03-21T17:37:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="852.643µs"
+    2026-03-21T17:37:12.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="672.867µs"
+    2026-03-21T17:37:12.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="700.011µs"
+    2026-03-21T17:37:16.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="708.05µs"
+    2026-03-21T17:37:16.612Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=5.105349ms
+    2026-03-21T17:37:20.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="560.449µs"
+    2026-03-21T17:37:20.609Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="776.946µs"
+    2026-03-21T17:37:24.551Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="759.92µs"
+    2026-03-21T17:37:24.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="604.583µs"
+    2026-03-21T17:37:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="813.47µs"
+    2026-03-21T17:37:27.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="327.171µs"
+    2026-03-21T17:37:28.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="615.426µs"
+    2026-03-21T17:37:28.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="260.508µs"
+    2026-03-21T17:37:32.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="253.283µs"
+    2026-03-21T17:37:32.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="246.216µs"
+    2026-03-21T17:37:36.550Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="304.312µs"
+    2026-03-21T17:37:36.608Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="274.648µs"
+    2026-03-21T17:37:40.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="620.014µs"
+    2026-03-21T17:37:40.606Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="608.449µs"
+    2026-03-21T17:37:42.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="794.652µs"
+    2026-03-21T17:37:42.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="702.906µs"
+    2026-03-21T17:37:44.549Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="391.746µs"
+    2026-03-21T17:37:44.607Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="255.19µs"
+    2026-03-21T17:37:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ffee58a6-fa8b-648f-af40-36607f9d9830 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ffee58a6-fa8b-648f-af40-36607f9d9830 type=_core namespace=- job_id=eval-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c0df0455-cdc3-2d17-b0b2-500668888d08 type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=c0df0455-cdc3-2d17-b0b2-500668888d08 type=_core namespace=- job_id=deployment-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ba3306ee-e802-a0d4-3e42-73e11880ea8d type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=ba3306ee-e802-a0d4-3e42-73e11880ea8d type=_core namespace=- job_id=job-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=2c7b9a6c-5d05-a841-6bf6-ab10e99f10f0 type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=2c7b9a6c-5d05-a841-6bf6-ab10e99f10f0 type=_core namespace=- job_id=node-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.066Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=49ea8025-d49f-0dd3-e87e-83f4f2df43c3 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=49ea8025-d49f-0dd3-e87e-83f4f2df43c3 type=_core namespace=- job_id=csi-plugin-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.067Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=234a8969-0ab0-ed29-9c1a-64293682c12f type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.067Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=234a8969-0ab0-ed29-9c1a-64293682c12f type=_core namespace=- job_id=csi-volume-claim-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.093Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=650edb35-107d-23b4-0edd-f53b0e802bb1 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:46.093Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=650edb35-107d-23b4-0edd-f53b0e802bb1 type=_core namespace=- job_id=local-token-expired-gc node_id="" triggered_by=scheduled
+    2026-03-21T17:37:48.544Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="655.062µs"
+    2026-03-21T17:37:48.603Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="360.376µs"
+    2026-03-21T17:37:51.011Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25" duration=7.307205ms
+    2026-03-21T17:37:51.074Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="802.152µs"
+    2026-03-21T17:37:51.132Z [DEBUG] http: request complete: method=GET path=/v1/node/pools duration="850.489µs"
+    2026-03-21T17:37:51.133Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="936.641µs"
+    2026-03-21T17:37:54.305Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app duration="981.075µs"
+    2026-03-21T17:37:54.373Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="369.382µs"
+    2026-03-21T17:37:54.374Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/allocations?index=380 duration="765.455µs"
+    2026-03-21T17:37:54.432Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/evaluations?index=381 duration="347.034µs"
+    2026-03-21T17:37:54.440Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:54.440Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="775.653µs"
+    2026-03-21T17:37:54.498Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:54.498Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="717.762µs"
+    2026-03-21T17:37:57.002Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:57.002Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="752.71µs"
+    2026-03-21T17:37:57.061Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:57.061Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="741.788µs"
+    2026-03-21T17:37:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration=1.023237ms
+    2026-03-21T17:37:57.106Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="541.184µs"
+    2026-03-21T17:37:59.563Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:59.563Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="380.283µs"
+    2026-03-21T17:37:59.622Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:37:59.623Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="401.777µs"
+    2026-03-21T17:38:02.125Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:02.125Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="380.14µs"
+    2026-03-21T17:38:02.184Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:02.184Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="701.856µs"
+    2026-03-21T17:38:04.684Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:04.685Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="913.811µs"
+    2026-03-21T17:38:04.745Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:04.745Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="361.989µs"
+    2026-03-21T17:38:07.247Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:07.248Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="850.92µs"
+    2026-03-21T17:38:07.306Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:07.306Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="735.47µs"
+    2026-03-21T17:38:09.808Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:09.808Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="771.86µs"
+    2026-03-21T17:38:09.868Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:09.868Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="785.455µs"
+    2026-03-21T17:38:10.181Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:10.181Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="747.317µs"
+    2026-03-21T17:38:12.106Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="718.121µs"
+    2026-03-21T17:38:12.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="743.462µs"
+    2026-03-21T17:38:12.742Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:12.742Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="844.738µs"
+    2026-03-21T17:38:15.302Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:15.302Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="347.486µs"
+    2026-03-21T17:38:15.451Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:15.451Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="286.681µs"
+    2026-03-21T17:38:15.508Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:15.508Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="501.51µs"
+    2026-03-21T17:38:18.011Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:18.011Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="269.059µs"
+    2026-03-21T17:38:18.070Z [DEBUG] http: request failed: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats error="Unknown allocation \"a4b480ba-d394-f825-4ded-bb0f4e3550df\"" code=404
+    2026-03-21T17:38:18.070Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/a4b480ba-d394-f825-4ded-bb0f4e3550df/stats duration="903.234µs"
+    2026-03-21T17:38:18.796Z [DEBUG] http: request complete: method=DELETE path=/v1/job/php-app?purge=true duration=1.27216ms
+    2026-03-21T17:38:18.797Z [DEBUG] http: request failed: method=GET path=/v1/job/php-app/summary?index=192 error="job not found" code=404
+    2026-03-21T17:38:18.797Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/summary?index=192 duration=3.372689458s
+    2026-03-21T17:38:18.797Z [DEBUG] http: request failed: method=GET path=/v1/job/php-app/summary?index=192 error="job not found" code=404
+    2026-03-21T17:38:18.797Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/summary?index=192 duration=24.358704315s
+    2026-03-21T17:38:18.798Z [DEBUG] http: request failed: method=GET path=/v1/job/php-app?index=217 error="job not found" code=404
+    2026-03-21T17:38:18.798Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app?index=217 duration=24.365940291s
+    2026-03-21T17:38:18.798Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=25.603702316s
+    2026-03-21T17:38:18.798Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=27.662413511s
+    2026-03-21T17:38:18.799Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=4m31.810247893s
+    2026-03-21T17:38:18.799Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=4m32.810061431s
+    2026-03-21T17:38:18.800Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/evaluations?index=453 duration=3.4335198s
+    2026-03-21T17:38:18.800Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/evaluations?index=453 duration=22.431249708s
+    2026-03-21T17:38:18.800Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=25b577a3-0f2f-07d6-e046-572bf30050e4 type=service namespace=default job_id=php-app node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:18.801Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=25b577a3-0f2f-07d6-e046-572bf30050e4 job_id=php-app namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0) (disconnect 0) (reconnect 0)"
+    2026-03-21T17:38:18.801Z [DEBUG] worker.service_sched: setting eval status: eval_id=25b577a3-0f2f-07d6-e046-572bf30050e4 job_id=php-app namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:38:18.801Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"25b577a3-0f2f-07d6-e046-572bf30050e4\" JobID: \"php-app\" Namespace: \"default\">"
+    2026-03-21T17:38:18.801Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=25b577a3-0f2f-07d6-e046-572bf30050e4 type=service namespace=default job_id=php-app node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:18.865Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25" duration="587.474µs"
+    2026-03-21T17:38:18.926Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="519.66µs"
+    2026-03-21T17:38:18.926Z [DEBUG] http: request complete: method=GET path=/v1/node/pools duration="362.526µs"
+    2026-03-21T17:38:18.930Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="532.729µs"
+    2026-03-21T17:38:19.862Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="450.662µs"
+    2026-03-21T17:38:22.395Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test duration="367.592µs"
+    2026-03-21T17:38:22.458Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="288.089µs"
+    2026-03-21T17:38:22.459Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/evaluations duration="258.748µs"
+    2026-03-21T17:38:22.522Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/allocations?index=1 duration="401.396µs"
+    2026-03-21T17:38:22.579Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/deployment?index=1 duration="364.137µs"
+    2026-03-21T17:38:22.588Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/summary duration="261.528µs"
+    2026-03-21T17:38:22.589Z [DEBUG] http: request complete: method=GET path="/v1/vars?prefix=nomad%2Fjobs%2Fnginx-test" duration="256.123µs"
+    2026-03-21T17:38:22.590Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/deployment duration="279.335µs"
+    2026-03-21T17:38:22.638Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="664.034µs"
+    2026-03-21T17:38:22.648Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/deployment duration="702.378µs"
+    2026-03-21T17:38:22.694Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="681.223µs"
+    2026-03-21T17:38:22.753Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="925.756µs"
+    2026-03-21T17:38:25.257Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="288.617µs"
+    2026-03-21T17:38:25.315Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="267.027µs"
+    2026-03-21T17:38:27.104Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="337.653µs"
+    2026-03-21T17:38:27.105Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="274.902µs"
+    2026-03-21T17:38:27.626Z [DEBUG] http: request complete: method=DELETE path=/v1/job/nginx-test duration="928.81µs"
+    2026-03-21T17:38:27.627Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test?index=228 duration=5.046926875s
+    2026-03-21T17:38:27.628Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=4.702552233s
+    2026-03-21T17:38:27.628Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=533" duration=5.702869041s
+    2026-03-21T17:38:27.629Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=6.637950516s
+    2026-03-21T17:38:27.629Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=8.645515972s
+    2026-03-21T17:38:27.629Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/evaluations?index=534 duration=5.106779154s
+    2026-03-21T17:38:27.630Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=d2c410d1-9126-cc7c-af9d-8148b7dc96d1 type=service namespace=default job_id=nginx-test node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:27.630Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=d2c410d1-9126-cc7c-af9d-8148b7dc96d1 job_id=nginx-test namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88
+  results=
+  | Total changes: (place 0) (destructive 0) (inplace 0) (stop 1) (disconnect 0) (reconnect 0)
+  | Desired Changes for "web": (place 0) (inplace 0) (destructive 0) (stop 1) (migrate 0) (ignore 0) (canary 0)
+  
+    2026-03-21T17:38:27.632Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/allocations?index=533 duration=3.109574588s
+    2026-03-21T17:38:27.633Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/allocations?index=454 duration=12.174635977s
+    2026-03-21T17:38:27.634Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/allocations?index=454 duration=17.394691892s
+    2026-03-21T17:38:27.634Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/allocations?index=454 duration=31.265311893s
+    2026-03-21T17:38:27.634Z [DEBUG] worker: submitted plan for evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=d2c410d1-9126-cc7c-af9d-8148b7dc96d1
+    2026-03-21T17:38:27.634Z [DEBUG] worker.service_sched: setting eval status: eval_id=d2c410d1-9126-cc7c-af9d-8148b7dc96d1 job_id=nginx-test namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:38:27.635Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"d2c410d1-9126-cc7c-af9d-8148b7dc96d1\" JobID: \"nginx-test\" Namespace: \"default\">"
+    2026-03-21T17:38:27.635Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=d2c410d1-9126-cc7c-af9d-8148b7dc96d1 type=service namespace=default job_id=nginx-test node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:27.636Z [DEBUG] client: updated allocations: index=536 total=3 pulled=1 filtered=2
+    2026-03-21T17:38:27.636Z [DEBUG] client: allocation updates: added=0 removed=0 updated=1 ignored=2
+    2026-03-21T17:38:27.636Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=1 ignored=2 errors=0
+    2026-03-21T17:38:27.637Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server type=Killing msg="Sent interrupt. Waiting 5s before force killing" failed=false
+    2026-03-21T17:38:27.691Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/versions duration="798.555µs"
+    2026-03-21T17:38:27.701Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test?index=535 duration="364.624µs"
+    2026-03-21T17:38:27.708Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/evaluations?index=535 duration="299.211µs"
+    2026-03-21T17:38:27.742Z [INFO]  client.driver_mgr.docker: stopped container: container_id=38d53f926343332bf0d09623984a5dbd1135a5c5b558fc562e4443003d1f94cb driver=docker
+    2026-03-21T17:38:27.742Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server type=Terminated msg="Exit Code: 0" failed=false
+    2026-03-21T17:38:27.746Z [DEBUG] client.driver_mgr.docker.docker_logger.stdio: received EOF, stopping recv loop: driver=docker err="rpc error: code = Unavailable desc = error reading from server: EOF"
+    2026-03-21T17:38:27.751Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="942.954µs"
+    2026-03-21T17:38:27.752Z [INFO]  client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker plugin=/usr/local/bin/nomad id=72524
+    2026-03-21T17:38:27.753Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+    2026-03-21T17:38:27.755Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:f46cb72c7df02710e693e863a983ac42f6a9579058a59a35f1ae36c9958e4ce0 references=1
+    2026-03-21T17:38:27.755Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server type=Killed msg="Task successfully killed" failed=false
+    2026-03-21T17:38:27.756Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.stdio: received EOF, stopping recv loop: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server err="rpc error: code = Unavailable desc = error reading from server: EOF"
+    2026-03-21T17:38:27.758Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server plugin=/usr/local/bin/nomad id=72446
+    2026-03-21T17:38:27.759Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server
+    2026-03-21T17:38:27.759Z [INFO]  agent: (runner) stopping
+    2026-03-21T17:38:27.759Z [DEBUG] agent: (runner) stopping watcher
+    2026-03-21T17:38:27.759Z [DEBUG] agent: (watcher) stopping all views
+    2026-03-21T17:38:27.759Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server
+    2026-03-21T17:38:27.760Z [INFO]  agent: (runner) received finish
+    2026-03-21T17:38:27.760Z [INFO]  client.gc: marking allocation for GC: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b
+    2026-03-21T17:38:27.808Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/5cdf06ff-a299-ecfc-c8bb-f06be664e75b/stats duration="242.823µs"
+    2026-03-21T17:38:27.891Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/allocations?index=536 duration=181.038508ms
+    2026-03-21T17:38:27.891Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/summary?index=225 duration=3.368673522s
+    2026-03-21T17:38:27.892Z [DEBUG] client: updated allocations: index=538 total=3 pulled=0 filtered=3
+    2026-03-21T17:38:27.892Z [DEBUG] client: allocation updates: added=0 removed=0 updated=0 ignored=3
+    2026-03-21T17:38:27.892Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=0 ignored=3 errors=0
+    2026-03-21T17:38:28.046Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:de361176a97942ea59f238a88743f22dbd5684225974447df1f476817714499b references=1
+    2026-03-21T17:38:28.690Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="428.604µs"
+    2026-03-21T17:38:29.308Z [DEBUG] http: request complete: method=DELETE path=/v1/job/nginx-test?purge=true duration="836.835µs"
+    2026-03-21T17:38:29.308Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/deployment?index=386 duration=13.884924327s
+    2026-03-21T17:38:29.308Z [DEBUG] http: request complete: method=GET path=/v1/job/php-app/deployment?index=386 duration=34.877245852s
+    2026-03-21T17:38:29.309Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/deployment?index=386 duration=4.785891572s
+    2026-03-21T17:38:29.309Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/deployment?index=386 duration=40.773710321s
+    2026-03-21T17:38:29.309Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/allocations?index=454 duration=40.832721119s
+    2026-03-21T17:38:29.310Z [DEBUG] http: request failed: method=GET path=/v1/job/nginx-test/summary?index=538 error="job not found" code=404
+    2026-03-21T17:38:29.310Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-test/summary?index=538 duration=1.346222914s
+    2026-03-21T17:38:29.310Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=de815e0b-571e-f7d3-98a9-2d23a9c13243 type=service namespace=default job_id=nginx-test node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:29.310Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=de815e0b-571e-f7d3-98a9-2d23a9c13243 job_id=nginx-test namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0) (disconnect 0) (reconnect 0)"
+    2026-03-21T17:38:29.310Z [DEBUG] worker.service_sched: setting eval status: eval_id=de815e0b-571e-f7d3-98a9-2d23a9c13243 job_id=nginx-test namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:38:29.310Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"de815e0b-571e-f7d3-98a9-2d23a9c13243\" JobID: \"nginx-test\" Namespace: \"default\">"
+    2026-03-21T17:38:29.311Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=de815e0b-571e-f7d3-98a9-2d23a9c13243 type=service namespace=default job_id=nginx-test node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:29.311Z [DEBUG] client: updated allocations: index=539 total=2 pulled=0 filtered=2
+    2026-03-21T17:38:29.311Z [DEBUG] client: allocation updates: added=0 removed=1 updated=0 ignored=2
+    2026-03-21T17:38:29.311Z [DEBUG] client: allocation updates applied: added=0 removed=1 updated=0 ignored=2 errors=0
+    2026-03-21T17:38:29.311Z [INFO]  client.gc: garbage collecting allocation: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b reason="forced collection"
+    2026-03-21T17:38:29.311Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b task=server type=Killing msg="Sent interrupt. Waiting 5s before force killing" failed=false
+    2026-03-21T17:38:29.316Z [DEBUG] client.gc: alloc garbage collected: alloc_id=5cdf06ff-a299-ecfc-c8bb-f06be664e75b
+    2026-03-21T17:38:29.373Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25" duration="412.857µs"
+    2026-03-21T17:38:29.436Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="294.703µs"
+    2026-03-21T17:38:29.436Z [DEBUG] http: request complete: method=GET path=/v1/node/pools duration="248.015µs"
+    2026-03-21T17:38:29.440Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="377.495µs"
+    2026-03-21T17:38:31.536Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static duration="445.823µs"
+    2026-03-21T17:38:31.599Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/allocations?index=454 duration="361.842µs"
+    2026-03-21T17:38:31.599Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="265.243µs"
+    2026-03-21T17:38:31.600Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/evaluations?index=453 duration="389.235µs"
+    2026-03-21T17:38:31.656Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/deployment?index=386 duration="317.034µs"
+    2026-03-21T17:38:31.659Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="322.832µs"
+    2026-03-21T17:38:31.717Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="286.766µs"
+    2026-03-21T17:38:34.221Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="641.518µs"
+    2026-03-21T17:38:34.279Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="627.777µs"
+    2026-03-21T17:38:36.331Z [DEBUG] http: request complete: method=DELETE path=/v1/job/nginx-static duration=1.077699ms
+    2026-03-21T17:38:36.331Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=538&namespace=*" duration=4.5776839s
+    2026-03-21T17:38:36.332Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=380&namespace=*" duration=4.831072278s
+    2026-03-21T17:38:36.333Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=535" duration=5.580899696s
+    2026-03-21T17:38:36.333Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=380" duration=6.89303223s
+    2026-03-21T17:38:36.333Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static?index=380 duration=4.676936813s
+    2026-03-21T17:38:36.334Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static?index=380 duration=47.857177379s
+    2026-03-21T17:38:36.335Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/evaluations?index=540 duration=2.734973823s
+    2026-03-21T17:38:36.336Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/evaluations?index=453 duration=47.800707499s
+    2026-03-21T17:38:36.336Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=6c522f77-a167-abc8-de71-7cab360dc430 type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:36.336Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=6c522f77-a167-abc8-de71-7cab360dc430 job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88
+  results=
+  | Total changes: (place 0) (destructive 0) (inplace 0) (stop 1) (disconnect 0) (reconnect 0)
+  | Desired Changes for "web": (place 0) (inplace 0) (destructive 0) (stop 1) (migrate 0) (ignore 0) (canary 0)
+  
+    2026-03-21T17:38:36.338Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/allocations?index=541 duration=2.737691663s
+    2026-03-21T17:38:36.338Z [DEBUG] worker: submitted plan for evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=6c522f77-a167-abc8-de71-7cab360dc430
+    2026-03-21T17:38:36.338Z [DEBUG] worker.service_sched: setting eval status: eval_id=6c522f77-a167-abc8-de71-7cab360dc430 job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:38:36.338Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"6c522f77-a167-abc8-de71-7cab360dc430\" JobID: \"nginx-static\" Namespace: \"default\">"
+    2026-03-21T17:38:36.338Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=6c522f77-a167-abc8-de71-7cab360dc430 type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:36.339Z [DEBUG] client: updated allocations: index=543 total=2 pulled=1 filtered=1
+    2026-03-21T17:38:36.339Z [DEBUG] client: allocation updates: added=0 removed=0 updated=1 ignored=1
+    2026-03-21T17:38:36.339Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=1 ignored=1 errors=0
+    2026-03-21T17:38:36.340Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server type=Killing msg="Sent interrupt. Waiting 5s before force killing" failed=false
+    2026-03-21T17:38:36.403Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/versions duration="688.731µs"
+    2026-03-21T17:38:36.404Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static?index=542 duration="246.132µs"
+    2026-03-21T17:38:36.416Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/evaluations?index=542 duration="535.619µs"
+    2026-03-21T17:38:36.442Z [INFO]  client.driver_mgr.docker: stopped container: container_id=aa7edf7949ecca1081aee5cabd8adabbcf7882eb3590bd4201b8a87c8337d644 driver=docker
+    2026-03-21T17:38:36.443Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server type=Terminated msg="Exit Code: 0" failed=false
+    2026-03-21T17:38:36.449Z [DEBUG] client.driver_mgr.docker.docker_logger.stdio: received EOF, stopping recv loop: driver=docker err="rpc error: code = Unavailable desc = error reading from server: EOF"
+    2026-03-21T17:38:36.451Z [INFO]  client.driver_mgr.docker.docker_logger: plugin process exited: driver=docker plugin=/usr/local/bin/nomad id=75887
+    2026-03-21T17:38:36.451Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin exited: driver=docker
+    2026-03-21T17:38:36.455Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:f46cb72c7df02710e693e863a983ac42f6a9579058a59a35f1ae36c9958e4ce0 references=0
+    2026-03-21T17:38:36.455Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server type=Killed msg="Task successfully killed" failed=false
+    2026-03-21T17:38:36.456Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.stdio: received EOF, stopping recv loop: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server err="rpc error: code = Unavailable desc = error reading from server: EOF"
+    2026-03-21T17:38:36.458Z [INFO]  client.alloc_runner.task_runner.task_hook.logmon: plugin process exited: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server plugin=/usr/local/bin/nomad id=75806
+    2026-03-21T17:38:36.459Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin exited: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server
+    2026-03-21T17:38:36.459Z [INFO]  agent: (runner) stopping
+    2026-03-21T17:38:36.459Z [DEBUG] agent: (runner) stopping watcher
+    2026-03-21T17:38:36.459Z [DEBUG] agent: (watcher) stopping all views
+    2026-03-21T17:38:36.459Z [DEBUG] client.alloc_runner.task_runner: task run loop exiting: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server
+    2026-03-21T17:38:36.462Z [INFO]  agent: (runner) received finish
+    2026-03-21T17:38:36.462Z [INFO]  client.gc: marking allocation for GC: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470
+    2026-03-21T17:38:36.463Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration="377.382µs"
+    2026-03-21T17:38:36.523Z [DEBUG] http: request complete: method=GET path=/v1/client/allocation/c7f71f2e-6c80-5b80-3b90-70af3d719470/stats duration=2.60822ms
+    2026-03-21T17:38:36.618Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/summary?index=377 duration=4.959619622s
+    2026-03-21T17:38:36.619Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/summary?index=377 duration=48.083287774s
+    2026-03-21T17:38:36.619Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/allocations?index=543 duration=203.436418ms
+    2026-03-21T17:38:36.620Z [DEBUG] client: updated allocations: index=546 total=2 pulled=0 filtered=2
+    2026-03-21T17:38:36.620Z [DEBUG] client: allocation updates: added=0 removed=0 updated=0 ignored=2
+    2026-03-21T17:38:36.620Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=0 ignored=2 errors=0
+    2026-03-21T17:38:36.727Z [DEBUG] client.driver_mgr.docker: image id reference count decremented: driver=docker image_id=sha256:de361176a97942ea59f238a88743f22dbd5684225974447df1f476817714499b references=0
+    2026-03-21T17:38:37.394Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="499.451µs"
+    2026-03-21T17:38:38.247Z [DEBUG] http: request complete: method=DELETE path=/v1/job/nginx-static?purge=true duration=1.15939ms
+    2026-03-21T17:38:38.248Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/deployment?index=539 duration=4.647896189s
+    2026-03-21T17:38:38.248Z [DEBUG] http: request failed: method=GET path=/v1/job/nginx-static/summary?index=546 error="job not found" code=404
+    2026-03-21T17:38:38.248Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/summary?index=546 duration=1.569190887s
+    2026-03-21T17:38:38.248Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=4e979bec-411a-9a52-7a56-a1951a1dda1a type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:38.248Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=4e979bec-411a-9a52-7a56-a1951a1dda1a job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 results="Total changes: (place 0) (destructive 0) (inplace 0) (stop 0) (disconnect 0) (reconnect 0)"
+    2026-03-21T17:38:38.248Z [DEBUG] worker.service_sched: setting eval status: eval_id=4e979bec-411a-9a52-7a56-a1951a1dda1a job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:38:38.249Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"4e979bec-411a-9a52-7a56-a1951a1dda1a\" JobID: \"nginx-static\" Namespace: \"default\">"
+    2026-03-21T17:38:38.249Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=4e979bec-411a-9a52-7a56-a1951a1dda1a type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-deregister
+    2026-03-21T17:38:38.249Z [DEBUG] client: updated allocations: index=547 total=1 pulled=0 filtered=1
+    2026-03-21T17:38:38.249Z [DEBUG] client: allocation updates: added=0 removed=1 updated=0 ignored=1
+    2026-03-21T17:38:38.249Z [DEBUG] client: allocation updates applied: added=0 removed=1 updated=0 ignored=1 errors=0
+    2026-03-21T17:38:38.249Z [INFO]  client.gc: garbage collecting allocation: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 reason="forced collection"
+    2026-03-21T17:38:38.250Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470 task=server type=Killing msg="Sent interrupt. Waiting 5s before force killing" failed=false
+    2026-03-21T17:38:38.253Z [DEBUG] client.gc: alloc garbage collected: alloc_id=c7f71f2e-6c80-5b80-3b90-70af3d719470
+    2026-03-21T17:38:38.317Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25" duration="805.768µs"
+    2026-03-21T17:38:38.378Z [DEBUG] http: request complete: method=GET path=/v1/node/pools duration="742.121µs"
+    2026-03-21T17:38:38.379Z [DEBUG] http: request complete: method=GET path=/v1/namespaces duration="663.706µs"
+    2026-03-21T17:38:38.382Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="507.278µs"
+    2026-03-21T17:38:42.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="729.53µs"
+    2026-03-21T17:38:57.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="648.493µs"
+    2026-03-21T17:39:12.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="389.128µs"
+    2026-03-21T17:39:17.672Z [DEBUG] http: request complete: method=PUT path=/v1/jobs duration=2.398901ms
+    2026-03-21T17:39:17.673Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=546&namespace=*" duration=37.200637839s
+    2026-03-21T17:39:17.674Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=542" duration=38.217081981s
+    2026-03-21T17:39:17.674Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=21" duration=39.292332024s
+    2026-03-21T17:39:17.674Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e938fb47-e034-f7bc-7284-0e72d144d8bb type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-register
+    2026-03-21T17:39:17.674Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=e938fb47-e034-f7bc-7284-0e72d144d8bb job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88
+  results=
+  | Total changes: (place 1) (destructive 0) (inplace 0) (stop 0) (disconnect 0) (reconnect 0)
+  | Created Deployment: "ff44f689-2e77-3e8f-f9aa-b4a4709d019c"
+  | Desired Changes for "web": (place 1) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 0) (canary 0)
+  
+    2026-03-21T17:39:17.678Z [DEBUG] http: request complete: method=GET path=/v1/job/nginx-static/deployment?index=547 duration=39.367431521s
+    2026-03-21T17:39:17.679Z [DEBUG] worker: submitted plan for evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e938fb47-e034-f7bc-7284-0e72d144d8bb
+    2026-03-21T17:39:17.679Z [DEBUG] worker.service_sched: setting eval status: eval_id=e938fb47-e034-f7bc-7284-0e72d144d8bb job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:39:17.679Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"e938fb47-e034-f7bc-7284-0e72d144d8bb\" JobID: \"nginx-static\" Namespace: \"default\">"
+    2026-03-21T17:39:17.679Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=e938fb47-e034-f7bc-7284-0e72d144d8bb type=service namespace=default job_id=nginx-static node_id="" triggered_by=job-register
+    2026-03-21T17:39:17.680Z [DEBUG] http: request complete: method=GET path=/v1/evaluation/e938fb47-e034-f7bc-7284-0e72d144d8bb duration="645.361µs"
+    2026-03-21T17:39:17.681Z [DEBUG] client: updated allocations: index=552 total=2 pulled=1 filtered=1
+    2026-03-21T17:39:17.681Z [DEBUG] client: allocation updates: added=1 removed=0 updated=0 ignored=1
+    2026-03-21T17:39:17.682Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server type=Received msg="Task received by client" failed=false
+    2026-03-21T17:39:17.682Z [DEBUG] client: allocation updates applied: added=1 removed=0 updated=0 ignored=1 errors=0
+    2026-03-21T17:39:17.683Z [DEBUG] client.alloc_runner.widmgr: retrieving and renewing workload identities: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 num_identities=0
+    2026-03-21T17:39:17.685Z [DEBUG] http: request complete: method=GET path=/v1/evaluation/e938fb47-e034-f7bc-7284-0e72d144d8bb/allocations duration="286.961µs"
+    2026-03-21T17:39:17.688Z [DEBUG] http: request complete: method=GET path=/v1/deployment/ff44f689-2e77-3e8f-f9aa-b4a4709d019c?stale= duration="338.171µs"
+    2026-03-21T17:39:17.697Z [DEBUG] client.driver_mgr.docker: cancelling removal of container image: driver=docker image_name=registry.k8s.io/pause-amd64:3.3
+    2026-03-21T17:39:17.697Z [DEBUG] client.driver_mgr.docker: image reference count incremented: driver=docker image_name=registry.k8s.io/pause-amd64:3.3 image_id=sha256:de361176a97942ea59f238a88743f22dbd5684225974447df1f476817714499b references=1
+    2026-03-21T17:39:17.736Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="402.521µs"
+    2026-03-21T17:39:18.007Z [DEBUG] client.alloc_runner.runner_hook: received result from CNI: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 result="{\"Interfaces\":{\"eth0\":{\"IPConfigs\":[{\"IP\":\"172.26.64.56\",\"Gateway\":\"172.26.64.1\"}],\"Mac\":\"c6:9d:ae:0c:4d:7d\",\"Sandbox\":\"/var/run/docker/netns/2f8bf4418713\",\"PciID\":\"\",\"SocketPath\":\"\"},\"nomad\":{\"IPConfigs\":null,\"Mac\":\"be:82:ec:cc:12:12\",\"Sandbox\":\"\",\"PciID\":\"\",\"SocketPath\":\"\"},\"vethf6ea9434\":{\"IPConfigs\":null,\"Mac\":\"92:5d:70:26:ae:62\",\"Sandbox\":\"\",\"PciID\":\"\",\"SocketPath\":\"\"}},\"DNS\":[{}],\"Routes\":[{\"dst\":\"0.0.0.0/0\"}]}"
+    2026-03-21T17:39:18.009Z [DEBUG] client.alloc_runner.task_runner: lifecycle start condition has been met, proceeding: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server
+    2026-03-21T17:39:18.009Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server type="Task Setup" msg="Building Task Directory" failed=false
+    2026-03-21T17:39:18.012Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: starting plugin: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server path=/usr/local/bin/nomad args=["/usr/local/bin/nomad", "logmon"]
+    2026-03-21T17:39:18.012Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: plugin started: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server path=/usr/local/bin/nomad pid=79560
+    2026-03-21T17:39:18.017Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: waiting for RPC address: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server plugin=/usr/local/bin/nomad
+    2026-03-21T17:39:18.046Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: plugin address: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server network=unix @module=logmon address=/tmp/plugin1807142357 timestamp=2026-03-21T17:39:18.046Z
+    2026-03-21T17:39:18.046Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon: using plugin: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server version=2
+    2026-03-21T17:39:18.048Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server @module=logmon path=/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/alloc/logs/.server.stdout.fifo timestamp=2026-03-21T17:39:18.048Z
+    2026-03-21T17:39:18.048Z [DEBUG] client.alloc_runner.task_runner.task_hook.logmon.nomad: opening fifo: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server @module=logmon path=/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/alloc/logs/.server.stderr.fifo timestamp=2026-03-21T17:39:18.048Z
+    2026-03-21T17:39:18.064Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server type="Downloading Artifacts" msg="Client is downloading artifacts" failed=false
+    2026-03-21T17:39:18.065Z [DEBUG] client.alloc_runner.task_runner.task_hook.artifacts: downloading artifact: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server artifact=https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip aid=D5aYdRx9eHWyXqJftS7LMTKEJdhOElta68qumAwQyx0
+    2026-03-21T17:39:18.065Z [DEBUG] client.artifact: get: source=https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip destination=local/repo user=""
+    2026-03-21T17:39:18.175Z [DEBUG] client.artifact: sub-process: OUTPUT="artifact download was a success"
+    2026-03-21T17:39:18.177Z [INFO]  agent: (runner) creating new runner (dry: false, once: false)
+    2026-03-21T17:39:18.177Z [DEBUG] agent: (runner) final config: {"Consul":{"Address":"127.0.0.1:8500","Namespace":"","Auth":{"Enabled":false,"Username":""},"Retry":{"Attempts":0,"Backoff":250000000,"MaxBackoff":60000000000,"Enabled":true},"SSL":{"CaCert":"","CaCertBytes":"","CaPath":"","Cert":"","Enabled":false,"Key":"","ServerName":"","Verify":true},"Token":"","TokenFile":"","Transport":{"CustomDialer":null,"DialKeepAlive":30000000000,"DialTimeout":30000000000,"DisableKeepAlives":false,"IdleConnTimeout":5000000000,"MaxIdleConns":0,"MaxIdleConnsPerHost":100,"MaxConnsPerHost":0,"TLSHandshakeTimeout":10000000000}},"Dedup":{"Enabled":false,"MaxStale":2000000000,"Prefix":"consul-template/dedup/","TTL":15000000000,"BlockQueryWaitTime":60000000000},"DefaultDelims":{"Left":null,"Right":null},"Exec":{"Command":[],"Enabled":false,"Env":{"Denylist":[],"Custom":[],"Pristine":false,"Allowlist":[]},"KillSignal":2,"KillTimeout":30000000000,"ReloadSignal":null,"Splay":0,"Timeout":0},"KillSignal":2,"LogLevel":"WARN","FileLog":{"LogFilePath":"","LogRotateBytes":0,"LogRotateDuration":86400000000000,"LogRotateMaxFiles":0},"MaxStale":315360000000000000,"PidFile":"","ReloadSignal":1,"Syslog":{"Enabled":false,"Facility":"LOCAL0","Name":"consul-template"},"Templates":[{"Backup":false,"Command":[],"CommandTimeout":30000000000,"Contents":"server {\n    listen 80;\n    root /local/repo;\n    index index.php index.html;\n    location / {\n        try_files $uri $uri/ =404;\n    }\n}\n","CreateDestDirs":true,"Destination":"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/local/nginx.conf","ErrMissingKey":false,"ErrFatal":true,"Exec":{"Command":[],"Enabled":false,"Env":{"Denylist":[],"Custom":[],"Pristine":false,"Allowlist":[]},"KillSignal":2,"KillTimeout":30000000000,"ReloadSignal":null,"Splay":0,"Timeout":30000000000},"Perms":420,"User":null,"Uid":null,"Group":null,"Gid":null,"Source":"","Wait":{"Enabled":false,"Min":0,"Max":0},"LeftDelim":"{{","RightDelim":"}}","FunctionDenylist":["executeTemplate","plugin","writeToFile"],"SandboxPath":"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server","MapToEnvironmentVariable":""}],"TemplateErrFatal":null,"Vault":{"Address":"","Enabled":false,"Namespace":"","RenewToken":false,"Retry":{"Attempts":12,"Backoff":250000000,"MaxBackoff":60000000000,"Enabled":true},"SSL":{"CaCert":"","CaCertBytes":"","CaPath":"","Cert":"","Enabled":true,"Key":"","ServerName":"","Verify":true},"Transport":{"CustomDialer":null,"DialKeepAlive":30000000000,"DialTimeout":30000000000,"DisableKeepAlives":false,"IdleConnTimeout":5000000000,"MaxIdleConns":0,"MaxIdleConnsPerHost":100,"MaxConnsPerHost":0,"TLSHandshakeTimeout":10000000000},"UnwrapToken":false,"ClientUserAgent":null,"DefaultLeaseDuration":300000000000,"LeaseRenewalThreshold":0.9,"K8SAuthRoleName":"","K8SServiceAccountTokenPath":"/run/secrets/kubernetes.io/serviceaccount/token","K8SServiceAccountToken":"","K8SServiceMountPath":"kubernetes"},"Nomad":{"Address":"","Enabled":true,"Namespace":"default","SSL":{"CaCert":"","CaCertBytes":"","CaPath":"","Cert":"","Enabled":false,"Key":"","ServerName":"","Verify":true},"AuthUsername":"","AuthPassword":"","Transport":{"CustomDialer":{},"DialKeepAlive":30000000000,"DialTimeout":30000000000,"DisableKeepAlives":false,"IdleConnTimeout":5000000000,"MaxIdleConns":0,"MaxIdleConnsPerHost":100,"MaxConnsPerHost":0,"TLSHandshakeTimeout":10000000000},"Retry":{"Attempts":0,"Backoff":250000000,"MaxBackoff":60000000000,"Enabled":true}},"Wait":{"Enabled":true,"Min":5000000000,"Max":240000000000},"Once":false,"ParseOnly":false,"BlockQueryWaitTime":300000000000,"ErrOnFailedLookup":false}
+    2026-03-21T17:39:18.177Z [INFO]  agent: (runner) creating watcher
+    2026-03-21T17:39:18.177Z [INFO]  agent: (runner) starting
+    2026-03-21T17:39:18.177Z [DEBUG] agent: (runner) running initial templates
+    2026-03-21T17:39:18.177Z [DEBUG] agent: (runner) initiating run
+    2026-03-21T17:39:18.177Z [DEBUG] agent: (runner) checking template a04b0544fd8506c2b73fe7cc2195a81a
+    2026-03-21T17:39:18.178Z [DEBUG] agent: (runner) rendering "(dynamic)" => "/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/local/nginx.conf"
+    2026-03-21T17:39:18.191Z [INFO]  agent: (runner) rendered "(dynamic)" => "/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/local/nginx.conf"
+    2026-03-21T17:39:18.191Z [DEBUG] agent: (runner) diffing and updating dependencies
+    2026-03-21T17:39:18.191Z [DEBUG] agent: (runner) watching 0 dependencies
+    2026-03-21T17:39:18.191Z [DEBUG] agent: (runner) all templates rendered
+    2026-03-21T17:39:18.191Z [DEBUG] agent: (runner) enabling global quiescence for "a04b0544fd8506c2b73fe7cc2195a81a"
+    2026-03-21T17:39:18.236Z [DEBUG] client.driver_mgr.docker: cancelling removal of container image: driver=docker image_name=nginx:alpine
+    2026-03-21T17:39:18.236Z [DEBUG] client.driver_mgr.docker: image reference count incremented: driver=docker image_name=nginx:alpine image_id=sha256:f46cb72c7df02710e693e863a983ac42f6a9579058a59a35f1ae36c9958e4ce0 references=1
+    2026-03-21T17:39:18.236Z [DEBUG] client.driver_mgr.docker: configured resources: driver=docker task_name=server memory=314572800 memory_reservation=0 cpu_shares=100 cpu_quota=0 cpu_period=0
+    2026-03-21T17:39:18.236Z [DEBUG] client.driver_mgr.docker: binding directories: driver=docker task_name=server binds="[]string{\"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/alloc:/alloc\", \"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/local:/local\", \"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/secrets:/secrets\", \"/tmp/NomadClient580061327/3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3/server/local/nginx.conf:/etc/nginx/conf.d/default.conf\"}"
+    2026-03-21T17:39:18.242Z [DEBUG] client.driver_mgr.docker: configuring network mode for task group: driver=docker task_name=server network_mode=container:1dc69ec67f52bba22be91bebaa4a27146b85d78c6e5bd19f68f1ec2d461a771a
+    2026-03-21T17:39:18.242Z [DEBUG] client.driver_mgr.docker: applied labels on the container: driver=docker task_name=server labels=map[com.hashicorp.nomad.alloc_id:3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3]
+    2026-03-21T17:39:18.242Z [DEBUG] client.driver_mgr.docker: setting container name: driver=docker task_name=server container_name=server-3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3
+    2026-03-21T17:39:18.322Z [INFO]  client.driver_mgr.docker: created container: driver=docker container_id=5479963a90f999d00e8fba547f30708b7f11c84cffb329ab5a2025de0181b4c7
+    2026-03-21T17:39:18.448Z [INFO]  client.driver_mgr.docker: started container: driver=docker container_id=5479963a90f999d00e8fba547f30708b7f11c84cffb329ab5a2025de0181b4c7
+    2026-03-21T17:39:18.449Z [DEBUG] client.driver_mgr.docker.docker_logger: starting plugin: driver=docker path=/usr/local/bin/nomad args=["/usr/local/bin/nomad", "docker_logger"]
+    2026-03-21T17:39:18.456Z [DEBUG] client.driver_mgr.docker.docker_logger: plugin started: driver=docker path=/usr/local/bin/nomad pid=79637
+    2026-03-21T17:39:18.456Z [DEBUG] client.driver_mgr.docker.docker_logger: waiting for RPC address: driver=docker plugin=/usr/local/bin/nomad
+    2026-03-21T17:39:18.518Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: plugin address: driver=docker @module=docker_logger address=/tmp/plugin2617529047 network=unix timestamp=2026-03-21T17:39:18.518Z
+    2026-03-21T17:39:18.518Z [DEBUG] client.driver_mgr.docker.docker_logger: using plugin: driver=docker version=2
+    2026-03-21T17:39:18.522Z [DEBUG] client.driver_mgr.docker.docker_logger.nomad: using client connection initialized from environment: driver=docker @module=docker_logger timestamp=2026-03-21T17:39:18.522Z
+    2026-03-21T17:39:18.523Z [INFO]  client.alloc_runner.task_runner: Task event: alloc_id=3d0a0155-f9e9-bfb2-2ec0-4d3a4efc3ac3 task=server type=Started msg="Task started by client" failed=false
+    2026-03-21T17:39:18.737Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="601.642µs"
+    2026-03-21T17:39:18.844Z [DEBUG] client: updated allocations: index=555 total=2 pulled=0 filtered=2
+    2026-03-21T17:39:18.844Z [DEBUG] client: allocation updates: added=0 removed=0 updated=0 ignored=2
+    2026-03-21T17:39:18.844Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=0 ignored=2 errors=0
+    2026-03-21T17:39:19.739Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=551" duration=1.095483ms
+    2026-03-21T17:39:19.800Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=552&namespace=*" duration="836.597µs"
+    2026-03-21T17:39:19.807Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration=5.509544ms
+    2026-03-21T17:39:20.873Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=551" duration="477.886µs"
+    2026-03-21T17:39:21.935Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="388.175µs"
+    2026-03-21T17:39:27.105Z [DEBUG] http: request complete: method=GET path=/v1/services?region=global duration="818.296µs"
+    2026-03-21T17:39:27.107Z [DEBUG] http: request complete: method=GET path=/v1/service/nginx-static?region=global duration="432.126µs"
+    2026-03-21T17:39:28.930Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=555&namespace=*" duration=3.916973219s
+    2026-03-21T17:39:28.931Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=555" duration=4.917448815s
+    2026-03-21T17:39:28.932Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=555&namespace=*" duration=7.064861735s
+    2026-03-21T17:39:28.933Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=555" duration=7.130028144s
+    2026-03-21T17:39:28.934Z [DEBUG] http: request complete: method=GET path="/v1/deployment/ff44f689-2e77-3e8f-f9aa-b4a4709d019c?index=552&stale=" duration=11.243308425s
+    2026-03-21T17:39:28.935Z [DEBUG] client: updated allocations: index=556 total=2 pulled=0 filtered=2
+    2026-03-21T17:39:28.935Z [DEBUG] client: allocation updates: added=0 removed=0 updated=0 ignored=2
+    2026-03-21T17:39:28.935Z [DEBUG] client: allocation updates applied: added=0 removed=0 updated=0 ignored=2 errors=0
+    2026-03-21T17:39:28.996Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="820.199µs"
+    2026-03-21T17:39:29.995Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="814.812µs"
+    2026-03-21T17:39:30.185Z [DEBUG] worker: dequeued evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=b68c0e26-b4db-c081-d147-067089385003 type=service namespace=default job_id=nginx-static node_id="" triggered_by=deployment-watcher
+    2026-03-21T17:39:30.186Z [DEBUG] worker.service_sched: reconciled current state with desired state: eval_id=b68c0e26-b4db-c081-d147-067089385003 job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88
+  results=
+  | Total changes: (place 0) (destructive 0) (inplace 0) (stop 0) (disconnect 0) (reconnect 0)
+  | Deployment Update for ID "ff44f689-2e77-3e8f-f9aa-b4a4709d019c": Status "successful"; Description "Deployment completed successfully"
+  | Desired Changes for "web": (place 0) (inplace 0) (destructive 0) (stop 0) (migrate 0) (ignore 1) (canary 0)
+  
+    2026-03-21T17:39:30.187Z [DEBUG] http: request complete: method=GET path="/v1/deployment/ff44f689-2e77-3e8f-f9aa-b4a4709d019c?index=556&stale=" duration=1.253004961s
+    2026-03-21T17:39:30.188Z [DEBUG] worker: submitted plan for evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=b68c0e26-b4db-c081-d147-067089385003
+    2026-03-21T17:39:30.188Z [DEBUG] worker.service_sched: setting eval status: eval_id=b68c0e26-b4db-c081-d147-067089385003 job_id=nginx-static namespace=default worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 status=complete
+    2026-03-21T17:39:30.188Z [DEBUG] worker: updated evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval="<Eval \"b68c0e26-b4db-c081-d147-067089385003\" JobID: \"nginx-static\" Namespace: \"default\">"
+    2026-03-21T17:39:30.189Z [DEBUG] worker: ack evaluation: worker_id=2369e34d-ef6b-b4dc-61ae-2a440eaa6b88 eval_id=b68c0e26-b4db-c081-d147-067089385003 type=service namespace=default job_id=nginx-static node_id="" triggered_by=deployment-watcher
+    2026-03-21T17:39:30.996Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=556" duration="755.605µs"
+    2026-03-21T17:39:31.057Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?index=556&namespace=*" duration="809.129µs"
+    2026-03-21T17:39:31.058Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="752.532µs"
+    2026-03-21T17:39:32.059Z [DEBUG] http: request complete: method=GET path="/v1/jobs/statuses?filter=&namespace=%2A&per_page=25&index=556" duration="785.612µs"
+    2026-03-21T17:39:33.133Z [DEBUG] http: request complete: method=POST path="/v1/jobs/statuses?namespace=*" duration="448.75µs"
