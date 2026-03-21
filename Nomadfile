@@ -25,9 +25,16 @@ job "nginx-static" {
       driver = "docker"
 
       artifact {
-        # Используем проверенную ссылку и путь, который работал
-        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code3.zip"
+        # Префикс git:: обязателен, чтобы Nomad не пытался скачать это как файл
+        source      = "git::https://github.com/WebmiRU/nomad_test.git"
         destination = "local/repo"
+
+        options {
+          # Можно указать конкретную ветку, тег или хеш коммита
+          ref = "master"
+          # Если репозиторий большой, можно скачать только последний коммит
+          depth = 1
+        }
       }
 
       config {
