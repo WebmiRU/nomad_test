@@ -26,7 +26,7 @@ job "nginx-static" {
 
       artifact {
         # Используем проверенную ссылку и путь, который работал
-        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code3.zip"
         destination = "local/repo"
       }
 
