@@ -22,39 +22,40 @@ job "php-app" {
 
     task "php" {
       driver = "docker"
+
       artifact {
-        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        destination = "local/repo"
-        options { archive = true }
+        source      = "https://s3.ru1.storage.beget.cloud"
+        # Качаем в общую папку группы alloc, чтобы nginx тоже видел
+        destination = "alloc/repo"
+        options {
+          archive = true
+        }
       }
+
       config {
         image = "php:8.2-fpm-alpine"
-        # Просто запускаем, права поправим в nginx (папка общая)
+        volumes = ["../alloc/repo:/var/www/html"]
+        # Исправляем права на случай, если в архиве они root-only
+        command = "/bin/sh"
+        args    = ["-c", "chmod -R 755 /var/www/html && php-fpm"]
       }
     }
 
     task "nginx" {
       driver = "docker"
-      artifact {
-        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        destination = "local/repo"
-        options {
-          archive = true
-          verbose = true
-        }
-      }
       config {
         image = "nginx:alpine"
-        volumes = ["local/nginx.conf:/etc/nginx/conf.d/default.conf"]
-        # Исправляем права на ВСЮ папку перед стартом
-        command = "/bin/sh"
-        args = ["-c", "chmod -R 777 /local/repo && nginx -g 'daemon off;'"]
+        volumes = [
+          "local/nginx.conf:/etc/nginx/conf.d/default.conf",
+          "../alloc/repo:/var/www/html"
+        ]
       }
+
       template {
         data = <<EOH
 server {
     listen 80;
-    root /local/repo;
+    root /var/www/html;
     index index.php;
     location / {
         try_files $uri $uri/ /index.php?$query_string;
@@ -63,7 +64,7 @@ server {
         fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
         include fastcgi_params;
-        fastcgi_param SCRIPT_FILENAME /local/repo$fastcgi_script_name;
+        fastcgi_param SCRIPT_FILENAME /var/www/html$fastcgi_script_name;
     }
 }
 EOH
