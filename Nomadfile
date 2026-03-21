@@ -7,14 +7,27 @@ job "nginx-static" {
       port "http" { to = 80 }
     }
 
+    service {
+      name = "nginx-static"
+      port = "http"
+      provider = "nomad"
+      tags = [
+        "traefik.enable=true",
+        "traefik.http.routers.static.rule=Host(`php.b220.ru`)",
+        "traefik.http.routers.static.entrypoints=websecure",
+        "traefik.http.routers.static.tls=true",
+        "traefik.http.routers.static.tls.certresolver=myresolver"
+      ]
+    }
+
     task "server" {
       driver = "docker"
 
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        destination = "local/"
+        # Указываем расширение в пути, чтобы Nomad точно понял, что это архив
+        destination = "local/repo.zip"
         options {
-          # Только эта опция в кавычках заставляет Nomad распаковать архив
           archive = "true"
         }
       }
@@ -30,7 +43,8 @@ job "nginx-static" {
         data = <<EOH
 server {
     listen 80;
-    root /local;
+    # Файлы окажутся внутри папки /local/repo.zip/
+    root /local/repo.zip;
     index index.php index.html;
     location / {
         try_files $uri $uri/ =404;
