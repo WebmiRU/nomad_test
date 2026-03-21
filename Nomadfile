@@ -8,8 +8,8 @@ job "nginx-static" {
     }
 
     service {
-      name = "nginx-static"
-      port = "http"
+      name     = "nginx-static"
+      port     = "http"
       provider = "nomad"
       tags = [
         "traefik.enable=true",
@@ -20,33 +20,38 @@ job "nginx-static" {
       ]
     }
 
-    # Качаем артефакт в ОБЩУЮ папку группы (alloc)
+    # Задача с PHP: именно она качает и распаковывает код
     task "php" {
       driver = "docker"
+
       artifact {
-        # Снова добавляем принудительный флаг архива
+        # Используем проверенную ссылку и путь, который работал
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        destination = "alloc/repo"
+        destination = "local/repo"
       }
+
       config {
         image = "php:8.2-fpm-alpine"
-        # Пробрасываем общую папку в контейнер PHP
+        # Монтируем свою же папку local, куда упал артефакт
         volumes = [
-          "alloc/repo:/var/www/html"
+          "local/repo:/var/www/html"
         ]
       }
     }
 
+    # Задача с Nginx: она просто берет файлы из папки соседа
     task "server" {
       driver = "docker"
+
       config {
         image = "nginx:alpine"
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          # Пробрасываем ТУ ЖЕ общую папку в контейнер Nginx
-          "alloc/repo:/var/www/html"
+          # МАГИЯ ТУТ: монтируем папку local из задачи "php" в этот контейнер
+          "../php/local/repo:/var/www/html"
         ]
       }
+
       template {
         data = <<EOH
 server {
