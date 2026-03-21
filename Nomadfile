@@ -8,8 +8,8 @@ job "nginx-static" {
     }
 
     service {
-      name     = "nginx-static"
-      port     = "http"
+      name = "nginx-static"
+      port = "http"
       provider = "nomad"
       tags = [
         "traefik.enable=true",
@@ -20,41 +20,38 @@ job "nginx-static" {
       ]
     }
 
-    # Задача 1: PHP-FPM
+    # Качаем артефакт в ОБЩУЮ папку группы (alloc)
     task "php" {
       driver = "docker"
-
       artifact {
-        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        destination = "local/repo"
+        # Снова добавляем принудительный флаг архива
+        source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip?archive=zip"
+        destination = "alloc/repo"
       }
-
       config {
         image = "php:8.2-fpm-alpine"
-        # PHP должен видеть те же файлы, что и Nginx
+        # Пробрасываем общую папку в контейнер PHP
         volumes = [
-          "local/repo:/local/repo"
+          "alloc/repo:/var/www/html"
         ]
       }
     }
 
-    # Задача 2: Nginx
     task "server" {
       driver = "docker"
-
       config {
         image = "nginx:alpine"
         volumes = [
           "local/nginx.conf:/etc/nginx/conf.d/default.conf",
-          "local/repo:/local/repo"
+          # Пробрасываем ТУ ЖЕ общую папку в контейнер Nginx
+          "alloc/repo:/var/www/html"
         ]
       }
-
       template {
         data = <<EOH
 server {
     listen 80;
-    root /local/repo;
+    root /var/www/html;
     index index.php index.html;
 
     location / {
@@ -62,13 +59,9 @@ server {
     }
 
     location ~ \.php$ {
-        fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        # Так как mode = "bridge", php-fpm доступен на localhost
         fastcgi_pass 127.0.0.1:9000;
-        fastcgi_index index.php;
         include fastcgi_params;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-        fastcgi_param PATH_INFO $fastcgi_path_info;
     }
 }
 EOH
