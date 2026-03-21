@@ -1,24 +1,17 @@
-job "nginx-test" {
-  datacenters = ["dc1"]
-  group "web" {
-    network {
-      mode = "bridge"
-      port "http" { to = 80 }
-    }
-
     task "server" {
       driver = "docker"
 
       artifact {
         source      = "https://s3.ru1.storage.beget.cloud/2d858c4489de-black-willow/code2.zip"
-        # Скачиваем прямо в local задачи
         destination = "local/repo"
-        options { archive = true }
+        options {
+          # Без этой строки Nomad просто скачивает файл как есть
+          archive = true
+        }
       }
 
       config {
         image = "nginx:alpine"
-        # МЫ НЕ МАПИМ ПАПКУ, а правим конфиг Nginx смотреть в /local/repo
         volumes = ["local/nginx.conf:/etc/nginx/conf.d/default.conf"]
       }
 
@@ -26,7 +19,6 @@ job "nginx-test" {
         data = <<EOH
 server {
     listen 80;
-    # Nomad прокидывает свою папку local в /local контейнера автоматически
     root /local/repo;
     index index.php index.html;
     location / {
@@ -37,5 +29,3 @@ EOH
         destination = "local/nginx.conf"
       }
     }
-  }
-}
